@@ -4,11 +4,11 @@ import { Logo } from "./Logo";
 export function Footer() {
   return (
     <footer className="my-4 flex flex-col items-center gap-2">
-      <p className="text-gray-500">Additional support kindly received from:</p>
+      <p className="text-gray-500">Supported by:</p>
       <div className="flex flex-wrap justify-center gap-4">
-        <Logo sponsor={bbsrc} />
-        <Logo sponsor={bca} />
-        <Logo sponsor={hampton} />
+        <Logo sponsor={ukri-stfc} />
+        <Logo sponsor={diamond} />
+        <Logo sponsor={iucr} />
       </div>
     </footer>
   );
