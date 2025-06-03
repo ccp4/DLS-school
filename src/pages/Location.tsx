@@ -1,42 +1,47 @@
 import { Heading, Link } from "../components/Elements";
 
 export function Location() {
-  const video =
-    "https://www.york.ac.uk/media/abouttheuniversity/campus/herovideo";
 
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
       <video
-        src={`${video}/campus-hero.mp4`}
-        poster={`${video}/campus-hero-still.jpg`}
+        src={`https://player.vimeo.com/video/666024918?h=8d4faf8cff`}
+        poster={`https://www.diamond.ac.uk/dam/jcr:cc4ec81e-d480-4821-94c2-a5b982079f94/2024-12-10-Diamond-Aerial-Photo-with-PV.png`}
         autoPlay
         loop
         muted
       ></video>
-      <Heading text="The University of York - Campus West" />
+      <Heading text="Diamond Light Source" />
       <p>
-        The school will be held at the University of York, York, YO10 5DD.
-        Lectures and practical workshops will both be held in the Department of
-        Biology, and accommodation and meals in nearby James College. The
-        university is well-connected with excellent rail links, direct access to
-        major road networks, and quick connections to international airports.
-        Please see the university's{" "}
-        <Link
-          href="https://www.york.ac.uk/about/transport-maps-parking/"
-          text="Transport, maps and parking"
-        />{" "}
-        page for more details on how to get here.
-      </p>
-      <Link href="https://www.york.ac.uk/map/" text="Interactive campus map" />
-      <Heading text="Accommodation" />
-      <p>
-        Accommodation for both students and speakers has been arranged on campus
-        in James College. Towels and bedding are provided.
-      </p>
-      <p>
-        There is a separate registration fee that does not include accommodation
-        for students who already live in York.
-      </p>
+        <a href="http://www.diamond.ac.uk/">Diamond Light Source</a> is the UK's
+      national synchrotron facility. It is a third generation light source
+      providing brilliant beams of light across the spectrum from far
+      infrared to hard X-rays, covering a wide variety of synchrotron
+      techniques. In the field of <a href="https://www.diamond.ac.uk/Instruments/Mx.html">MX</a>,
+      Diamond currently provides seven
+      undulator beamlines: three high brilliance tunable beamlines, two of which
+      have microfocus capability, a fixed wavelength side-station, a nano/microfocus beamline,
+      a dedicated long-wavelength native phasing beamline and a versatile <i>in-situ</i>
+      screening and data collection beamline. It also hosts the UK XFEL hub, Membrane
+      Protein Laboratory and XChem facility.
+    </p>
+   <Heading text="Research Complex at Harwell" />
+    <p>Next to Diamond, the <a href="http://www.rc-harwell.ac.uk/">Research
+        Complex at Harwell</a> is a multidisciplinary laboratory providing
+      facilities for research teams from UK universities working at the
+      interfaces between traditional disciplines. The RCaH is the home of the
+      CCP4 core team, as well as <a href="https://www.rc-harwell.ac.uk/research-groups/protein-production-uk-ppuk">Protein
+        Production UK</a>, researchers from the <a href="http://www.diamond.ac.uk/Beamlines/Mx/MPL.html">Membrane Protein
+        Laboratory</a>, and other groups working in MX.
+    </p>
+    <Heading text="Harwell campus" />
+    <p>The <a href="https://www.harwellcampus.com/">Harwell Campus</a>
+      hosts both Diamond Light Source and the Research Complex at Harwell, as
+      well as other facilities at the STFC <a href="https://stfc.ukri.org/about-us/where-we-work/rutherford-appleton-laboratory/">
+        Rutherford Appleton Laboratory</a>. It is located in the South
+      Oxfordshire countryside, about 16 miles south of Oxford.
+    </p>
+
     </main>
   );
 }

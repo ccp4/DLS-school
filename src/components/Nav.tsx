@@ -21,6 +21,7 @@ export function Nav() {
       <Link to="programme" text="Programme" />
       <Link to="people" text="People" />
       <Link to="location" text="Location" />
+      <Link to="accommodation" text="Accommodation" />
       <Link to="edi" text="EDI" />
       <Link to="contact" text="Contact" />
       <Link to="apply" text="Apply" />

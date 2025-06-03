@@ -53,7 +53,6 @@ export function Home() {
         address of a supervisor who will write a letter of recommendation in
         support of their application.
       </p>
-      <p>We look forward to welcoming you in York this summer!</p>
       <p>
         The organisers.
       </p>
