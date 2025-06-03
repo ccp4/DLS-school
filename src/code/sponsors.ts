@@ -22,6 +22,24 @@ export const ccp4: Sponsor = {
   logo: "ccp4.png",
 };
 
+export const ukristfc: Sponsor = {
+  name: "UKRI-STFC",
+  url: "https://www.stfc.ac.uk",
+  logo: "ukri-stfc.png",
+};
+
+export const diamond: Sponsor = {
+  name: "diamond",
+  url: "https://www.diamond.ac.uk",
+  logo: "diamond.png",
+};
+
+export const iucr: Sponsor = {
+  name: "IUCr",
+  url: "https://www.iucr.org",
+  logo: "iucr.png",
+};
+
 export const hampton: Sponsor = {
   name: "Hampton Research",
   url: "https://hamptonresearch.com/",
