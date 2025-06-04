@@ -3,8 +3,6 @@ import { Heading, Link } from "../components/Elements";
 export function Accommodation() {
   return (
     <main className="m-auto flex max-w-7xl flex-col gap-4">
-      <img src="" />
-      <img src={""} />
       <Heading text="Accommodation" />
       <p>
         Rooms for both students and speakers have been arranged at{" "}
@@ -39,6 +37,26 @@ export function Accommodation() {
       <p>
         Parking at The Bear is not free, but cheap parking is available nearby.
       </p>
+
+      <table>
+        <tr>
+          <td width="70%">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.8951498158285!2d-1.4269390999999936!3d51.588485000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876b15490c245d1%3A0x1b75b1ef4f8c5aa0!2sThe+Bear+Hotel!5e0!3m2!1sen!2sus!4v1441372742261"
+              width="800"
+              height="600"
+            ></iframe>
+          </td>
+          <td align="center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Statue_of_King_Alfred_in_Wantage_Market_Square.jpg"
+              alt="King Alfred statue"
+              width="404"
+              height="607"
+            />
+          </td>
+        </tr>
+      </table>
     </main>
   );
 }
