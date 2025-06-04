@@ -1,19 +1,14 @@
-import { Link } from "../components/Elements";
+import { Heading, Link } from "../components/Elements";
 import { people } from "../code/people";
 
 export function Contact() {
   return (
     <main className="flex flex-col items-center gap-4">
+      <Heading text="Contact us" />
       <p className="max-w-4xl">
-        Please contact the organisers at{" "}
-        <Link
-          href="mailto:structural-biology-summer-school@york.ac.uk"
-          text="structural-biology-summer-school@york.ac.uk"
-        />{" "}
-        if you have any queries related to the school, including the programme,
-        registration, or accommodation. If you prefer to contact an individual
-        organiser, for example with conduct or safeguarding concerns, please use
-        the e-mail addresses below.
+        Feel free to contact any or all of the organisers should you have any
+        queries related to the school, including registration, programme, or
+        accommodation.
       </p>
       <div className="flex flex-wrap justify-center gap-4 p-4">
         {people

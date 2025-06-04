@@ -50,7 +50,7 @@ export const chris_hill: Person = {
   name: "Chris Hill",
   email: "chris.hill@york.ac.uk",
   photo: "chris_hill.jpg",
-  tags: ["Cryo-EM", "Crystallography", "Organiser"],
+  tags: ["Cryo-EM", "Crystallography"],
   homepage: "https://www.hill-lab.co.uk/",
 };
 
@@ -68,7 +68,9 @@ export const david_aragao: Person = {
 
 export const david_waterman: Person = {
   name: "David Waterman",
-  tags: ["CCP4", "Crystallography", "Data Processing"],
+  email: "david.waterman@stfc.ac.uk",
+  photo: "david_waterman.jpg",
+  tags: ["CCP4", "Crystallography", "Data Processing", "Organiser"],
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-waterman",
 };
@@ -97,7 +99,7 @@ export const johan_turkenburg: Person = {
   name: "Johan Turkenburg",
   email: "johan.turkenburg@york.ac.uk",
   photo: "johan_turkenburg.jpg",
-  tags: ["Cryo-EM", "Crystallography", "Organiser"],
+  tags: ["Cryo-EM", "Crystallography"],
   homepage: "https://www.york.ac.uk/chemistry/people/jturkenburg/",
 };
 
@@ -111,7 +113,7 @@ export const jon_agirre: Person = {
   name: "Jon Agirre",
   email: "jon.agirre@york.ac.uk",
   photo: "jon_agirre.jpg",
-  tags: ["CCP4", "Crystallography", "EDI", "Organiser", "Sugars", "Validation"],
+  tags: ["CCP4", "Crystallography", "EDI", "Sugars", "Validation"],
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/jagirre/",
 };
@@ -132,13 +134,23 @@ export const lucy_schofield: Person = {
   name: "Lucy Schofield",
   email: "lcs551@york.ac.uk",
   photo: "lucy_schofield.jpg",
-  tags: ["CCP4", "EDI", "Organiser", "Sugars"],
+  tags: ["CCP4", "EDI", "Sugars"],
   homepage: undefined,
+};
+
+export const marco_mazzorana: Person = {
+  name: "Marco Mazzorana",
+  tags: ["Crystallography", "Synchrotrons", "Organiser"],
+  email: "marco.mazzorana@diamond.ac.uk",
+  photo: "marco_mazzorana.jpg",
+  homepage: "https://www.diamond.ac.uk/Instruments/Mx/I04/Staff/Mazzorana.html",
 };
 
 export const maria_fando: Person = {
   name: "Maria Fando",
-  tags: ["CCP4", "Crystallography", "Interfaces"],
+  email: "maria.fando@stfc.ac.uk",
+  photo: "maria_fando.jpg",
+  tags: ["CCP4", "Crystallography", "Interfaces", "Organiser"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
 
@@ -146,7 +158,7 @@ export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
   photo: "paul_bond.jpg",
-  tags: ["CCP4", "Interfaces", "Model Building", "Organiser"],
+  tags: ["CCP4", "Interfaces", "Model Building"],
   homepage: "https://paulsbond.co.uk",
 };
 
@@ -161,6 +173,14 @@ export const pavol_bardy: Person = {
   tags: ["Electron Tomography"],
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/pavol-bardy/",
+};
+
+export const pierre_aller: Person = {
+  name: "Pierre Aller",
+  tags: ["Crystallography", "Synchrotrons", "Organiser"],
+  email: "pierre.aller@diamond.ac.uk",
+  photo: "pierre_aller.jpg",
+  homepage: "https://www.diamond.ac.uk/Instruments/Mx/XFEL-Hub/Team/Aller.html",
 };
 
 export const rob_nicholls: Person = {
@@ -232,9 +252,11 @@ export const people: Person[] = [
   kathryn_cowtan,
   lucy_schofield,
   maria_fando,
+  marco_mazzorana,
   paul_bond,
   paul_emsley,
   pavol_bardy,
+  pierre_aller,
   rob_nicholls,
   ronan_keegan,
   sam_horrell,
