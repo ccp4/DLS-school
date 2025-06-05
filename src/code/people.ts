@@ -64,7 +64,8 @@ export const andrey_lebedev: Person = {
     "Crystallography",
     "Data Processing",
     "Data Pathologies",
-    "Interfaces",
+    "CCP4I2",
+    "Cloud",
     "Molecular Replacement",
     "Refinement",
     "Symmetry",
@@ -167,7 +168,7 @@ export const eugene_krissinel: Person = {
   email: "eugene.krissinel@stfc.ac.uk",
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/group-leaders/eugene-krissinel",
-  tags: ["CCP4", "Crystallography", "Cloud", "Interfaces"],
+  tags: ["CCP4", "Crystallography", "Cloud"],
 };
 
 export const felicity_bertram: Person = {
@@ -280,7 +281,7 @@ export const maria_fando: Person = {
   name: "Maria Fando",
   email: "maria.fando@stfc.ac.uk",
   photo: "maria_fando.jpg",
-  tags: ["CCP4", "Crystallography", "Interfaces", "Organiser"],
+  tags: ["CCP4", "Crystallography", "Cloud", "Organiser"],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
 
@@ -302,7 +303,7 @@ export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
   photo: "paul_bond.jpg",
-  tags: ["CCP4", "Interfaces", "Model Building"],
+  tags: ["CCP4", "CCP4I2", "Model Building"],
   homepage: "https://paulsbond.co.uk",
 };
 
@@ -337,15 +338,7 @@ export const robbie_joosten: Person = {
 
 export const rob_nicholls: Person = {
   name: "Rob Nicholls",
-  tags: [
-    "CCP-EM",
-    "CCP4",
-    "Cryo-EM",
-    "Crystallography",
-    "Interfaces",
-    "Model Building",
-    "Refinement",
-  ],
+  tags: ["CCP4", "Crystallography", "Model Building", "Refinement"],
   homepage: "https://www.ccpem.ac.uk/people/rob-nicholls/",
 };
 
@@ -367,7 +360,7 @@ export const stuart_mcnicholas: Person = {
   email: "stuart.mcnicholas@york.ac.uk",
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/smcnicholas/",
-  tags: ["CCP4", "Graphics", "Interfaces"],
+  tags: ["CCP4", "Graphics", "CCP4I2"],
 };
 
 export const people: Person[] = [
