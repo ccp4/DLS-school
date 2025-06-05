@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build --base=/DLS-2025/"
+    "build": "vite build --base=./"
   },
   "dependencies": {
     "material-symbols": "^0.29.1",
