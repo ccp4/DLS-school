@@ -1,4 +1,11 @@
-import { zoom, lecture_theatre, wildwood } from "./locations";
+import {
+  zoom,
+  diamond_house,
+  lecture_theatre,
+  mx_village,
+  market,
+  wildwood,
+} from "./locations";
 import {
   airlie_mccoy,
   allen_orville,
@@ -44,6 +51,7 @@ import {
   sandra_eltschkner,
   stuart_mcnicholas,
 } from "./people";
+import { diamond } from "./sponsors";
 
 interface Session {
   title: string;
@@ -58,7 +66,7 @@ interface Day {
   sessions: Session[];
 }
 
-const day1: Day = {
+const zday1: Day = {
   title: "Zoom Day 1 - Mon 3rd Nov",
   sessions: [
     {
@@ -100,7 +108,7 @@ const day1: Day = {
     },
     {
       title: "Lunch",
-      type: "Lunch",
+      type: "Meal",
       time: "12:30",
     },
     {
@@ -131,4 +139,205 @@ const day1: Day = {
   ],
 };
 
-export const days = [day1];
+const zday2: Day = {
+  title: "Zoom Day 2 - Mon 10th Nov",
+  sessions: [
+    {
+      title: "Informal housekeeping",
+      type: "Other",
+      time: "09:15",
+      location: zoom,
+    },
+    {
+      title: "Bioinformatics for structural biologists",
+      type: "Lecture",
+      time: "09:30",
+      location: zoom,
+      speakers: [dan_rigden],
+    },
+    {
+      title: "AlphaFold use for experimental structural biology",
+      type: "Lecture",
+      time: "10:15",
+      speakers: [oleg_kovalevskiy],
+      location: zoom,
+    },
+    {
+      title: "Break",
+      type: "Break",
+      time: "11:00",
+    },
+    {
+      title: "Basic Diffraction Theory",
+      type: "Lecture",
+      time: "11:15",
+      location: zoom,
+      speakers: [kamel_elomari],
+    },
+    {
+      title: "Data Collection Strategies for Photon Counting Detectors",
+      type: "Lecture",
+      time: "12:00",
+      location: zoom,
+    },
+    {
+      title: "Lunch",
+      type: "Meal",
+      time: "12:45",
+    },
+    {
+      title: "Optimising the Diamond experience",
+      type: "Lecture",
+      time: "13:30",
+      location: zoom,
+    },
+  ],
+};
+
+const zday3: Day = {
+  title: "Zoom Day 3 - Mon 17th Nov",
+  sessions: [
+    {
+      title: "Informal housekeeping",
+      type: "Other",
+      time: "09:15",
+      location: zoom,
+    },
+    {
+      title: "Introduction to CCP4 Cloud",
+      type: "Practical",
+      time: "09:30",
+      location: zoom,
+      speakers: [maria_fando],
+    },
+    {
+      title: "Twinning",
+      type: "Lecture",
+      time: "10:15",
+      speakers: [andrea_thorn],
+      location: zoom,
+    },
+    {
+      title: "Break",
+      type: "Break",
+      time: "11:00",
+    },
+    {
+      title: "Intro to space groups and symmetry",
+      type: "Lecture",
+      time: "11:15",
+      location: zoom,
+      speakers: [andrey_lebedev],
+    },
+    {
+      title: "Data Processing (inc scaling)",
+      type: "Lecture",
+      time: "12:00",
+      location: zoom,
+      speakers: [ana_gonzalez],
+    },
+    {
+      title: "Lunch",
+      type: "Meal",
+      time: "13:00",
+    },
+    {
+      title: "Radiation Damage",
+      type: "Lecture",
+      time: "13:45",
+      location: zoom,
+      speakers: [elspeth_garman],
+    },
+    {
+      title: "Break",
+      type: "Break",
+      time: "14:45",
+    },
+    {
+      title: "Dose driven data collection to optimise your experiments",
+      type: "Lecture",
+      time: "15:00",
+      location: zoom,
+      speakers: [david_aragão],
+    },
+  ],
+};
+
+const day1: Day = {
+  title: "Day 1 - Mon 24th Nov",
+  sessions: [
+    {
+      title: "X35 bus from Wantage to Diamond",
+      type: "Other",
+      time: "08:32",
+      location: market,
+    },
+    {
+      title: "Registration",
+      type: "Other",
+      time: "09:00",
+      location: diamond_house,
+    },
+    {
+      title: "Welcome to Diamond",
+      type: "Lecture",
+      time: "09:15",
+      location: lecture_theatre,
+    },
+    {
+      title: "XDS demo/tutorial",
+      type: "Practical",
+      time: "09:30",
+      location: lecture_theatre,
+      speakers: [kay_diederichs],
+    },
+    {
+      title: "Data collection and processing",
+      type: "Practical",
+      time: "10:15",
+      location: mx_village,
+    },
+    {
+      title: "DIALS demo/tutorial",
+      type: "Practical",
+      time: "10:15",
+      location: lecture_theatre,
+    },
+    {
+      title: "Lunch",
+      type: "Meal",
+      time: "12:15",
+    },
+    {
+      title: "Data collection and processing",
+      type: "Practical",
+      time: "13:00",
+      location: mx_village,
+    },
+    {
+      title: "DIALS demo/tutorial",
+      type: "Practical",
+      time: "13:00",
+      location: lecture_theatre,
+    },
+    {
+      title: "Dinner",
+      type: "Meal",
+      time: "18:15",
+    },
+    {
+      title: "Work on your own data",
+      type: "Practical",
+      time: "19:15",
+      location: lecture_theatre,
+    },
+    {
+      title: "Coach back to Wantage",
+      type: "Other",
+      time: "20:15",
+      location: diamond_house,
+    },
+  ],
+};
+
+export const days = [zday1, zday2, zday3, day1];
