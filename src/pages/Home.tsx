@@ -8,7 +8,8 @@ export function Home() {
           DLS-CCP4 Data Collection and Structure Solution Workshop 2025
         </h1>
         <p className="text-center text-lg">
-          On site: November 24th - December 2nd 2025
+          Zoom days 3rd, 10th and 17th November. On site: 24th November 24th -
+          2nd December 2025
         </p>
       </div>
       <img
@@ -18,7 +19,7 @@ export function Home() {
       />
       <p>
         <b>
-          We are very pleased to announce the twelfth joint Diamond-CCP4 MX
+          We are very pleased to announce the 12th joint Diamond-CCP4 MX
           workshop for graduate students, postdocs and early career scientists.
         </b>
       </p>
