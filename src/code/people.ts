@@ -8,18 +8,57 @@ export interface Person {
 
 export const airlie_mccoy: Person = {
   name: "Airlie McCoy",
-  tags: ["CCP4", "Molecular Replacement"],
+  email: "ajm201@cam.ac.uk",
   homepage: "https://www.cimr.cam.ac.uk/staff/dr-airlie-mccoy",
+  tags: ["CCP4", "Molecular Replacement"],
+};
+
+export const allen_orville: Person = {
+  name: "Allen Orville",
+  email: "allen.orville@diamond.ac.uk",
+  homepage:
+    "https://www.diamond.ac.uk/Instruments/Mx/Research/Orville-Group/Orville.html",
+  tags: ["Crystallography", "XFEL"],
 };
 
 export const amy_thompson: Person = {
   name: "Amy Thompson",
-  tags: ["Crystallography", "Data Processing", "Synchrotrons"],
+  email: "amy.thompson@diamond.ac.uk",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXi/Staff/Thompson.html",
+  tags: ["Crystallography", "Data Processing", "Synchrotrons"],
+};
+
+export const ana_gonzalez: Person = {
+  name: "Ana Gonzalez",
+  email: "ana.gonzalez@maxiv.lu.se",
+  homepage: "https://www.maxiv.lu.se/beamlines-accelerators/beamlines/biomax/",
+  tags: [
+    "Crystallography",
+    "Data Collection",
+    "Data Processing",
+    "Synchrotrons",
+  ],
+};
+
+export const andrew_quigley: Person = {
+  name: "Andrew Quigley",
+  email: "andrew.quigley@diamond.ac.uk",
+  homepage: "https://www.diamond.ac.uk/Instruments/Mx/MPL/Staff/Quigley.html",
+  tags: ["Crystallography", "Membrane Proteins"],
+};
+
+export const andrea_thorn: Person = {
+  name: "Andrea Thorn",
+  email: "andrea.thorn@uni-hamburg.de",
+  homepage: "https://thorn-lab.com/team-member/andrea-thorn/",
+  tags: ["Crystallography", "Pathologies"],
 };
 
 export const andrey_lebedev: Person = {
   name: "Andrey Lebedev",
+  email: "andrey.lebedev@stfc.ac.uk",
+  homepage:
+    "https://www.rc-harwell.ac.uk/who-we-are/researchers/andrey-lebedev",
   tags: [
     "CCP4",
     "Crystallography",
@@ -30,104 +69,195 @@ export const andrey_lebedev: Person = {
     "Refinement",
     "Symmetry",
   ],
-  homepage:
-    "https://www.rc-harwell.ac.uk/who-we-are/researchers/andrey-lebedev",
 };
 
 export const anna_warren: Person = {
   name: "Anna Warren",
-  tags: ["Crystallography", "Data Collection", "Synchrotrons"],
+  email: "anna.warren@diamond.ac.uk",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXm/Staff/Warren.html",
+  tags: ["Crystallography", "Data Collection", "Synchrotrons"],
 };
 
-export const briony_yorke: Person = {
-  name: "Briony Yorke",
-  tags: ["Crystallography", "Data Processing", "Synchrotrons"],
-  homepage: "https://eps.leeds.ac.uk/chemistry/staff/13839/dr-briony-yorke",
+export const blake_balcomb: Person = {
+  name: "Blake Balcomb",
+  email: "blake.h.balcomb@diamond.ac.uk",
+  homepage:
+    "https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening/XChem-Team/Blake-Balcomb.html",
+  tags: ["Crystallography", "Data Collection", "Synchrotrons", "Ligands"],
 };
 
-export const chris_hill: Person = {
-  name: "Chris Hill",
-  email: "chris.hill@york.ac.uk",
-  photo: "chris_hill.jpg",
-  tags: ["Cryo-EM", "Crystallography"],
-  homepage: "https://www.hill-lab.co.uk/",
+export const clemens_vonrhein: Person = {
+  name: "Clemens Vonrhein",
+  email: "vonrhein@globalphasing.com",
+  homepage: "undefined",
+  tags: ["Crystallography", "Data Processing", "Refinement"],
 };
 
-export const clement_degut: Person = {
-  name: "Clément Dégut",
-  tags: ["Cryo-EM", "Crystallography", "NMR"],
-  homepage: undefined,
+export const dan_rigden: Person = {
+  name: "Dan Rigden",
+  email: "drigden@liverpool.ac.uk",
+  homepage: "https://www.liverpool.ac.uk/people/daniel-rigden",
+  tags: ["Bioinformatics"],
 };
 
-export const david_aragao: Person = {
+export const danny_axford: Person = {
+  name: "Danny Axford",
+  email: "danny.axford@diamond.ac.uk",
+  homepage: "https://www.diamond.ac.uk/Instruments/Mx/I24/Staff/Axford.html",
+  tags: ["Crystallography", "Synchrotrons", "Data Collection"],
+};
+
+export const daren_fearon: Person = {
+  name: "Daren Fearon",
+  email: "daren.fearon@diamond.ac.uk",
+  homepage:
+    "https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening/XChem-Team/Fearon.html",
+  tags: ["Crystallography", "Data Collection", "Synchrotrons", "Ligands"],
+};
+
+export const david_aragão: Person = {
   name: "David Aragão",
-  tags: ["Crystallography", "Synchrotrons"],
+  email: "david.aragao@diamond.ac.uk",
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-aragao",
+  tags: [
+    "Crystallography",
+    "Data collection",
+    "Synchrotrons",
+    "Radiation Damage",
+  ],
+};
+
+export const david_lawson: Person = {
+  name: "David Lawson",
+  email: "david.lawson@jic.ac.uk",
+  homepage: "https://www.jic.ac.uk/people/david-lawson/",
+  tags: ["Crystallography", "Data Collection", "Data Processing"],
 };
 
 export const david_waterman: Person = {
   name: "David Waterman",
   email: "david.waterman@stfc.ac.uk",
-  photo: "david_waterman.jpg",
-  tags: ["CCP4", "Crystallography", "Data Processing", "Organiser"],
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-waterman",
+  tags: ["CCP4", "Crystallography", "Data Processing", "Organiser"],
+  photo: "david_waterman.jpg",
 };
 
-export const huw_jenkins: Person = {
-  name: "Huw Jenkins",
-  tags: ["Crystallography", "Cryo-EM", "Molecular Replacement"],
+export const ed_lowe: Person = {
+  name: "Ed Lowe",
+  email: "edward.lowe@bioch.ox.ac.uk",
+  homepage: "https://www.bioch.ox.ac.uk/crystallography",
+  tags: [
+    "Crystallography",
+    "Data Processing",
+    "Molecular Replacement",
+    "Symmetry",
+  ],
+};
+export const elspeth_garman: Person = {
+  name: "Elspeth Garman",
+  email: "elspeth.garman@bioch.ox.ac.uk",
   homepage:
-    "https://www.york.ac.uk/biology/itsupport/cfm/post_doc/profile_ysbl.cfm?ID=823",
+    "https://www.ox.ac.uk/news-and-events/find-an-expert/professor-elspeth-garman",
+  tags: ["Crystallography", "Data Collection", "Radiation Damage"],
 };
 
-export const jamie_blaza: Person = {
-  name: "Jamie Blaza",
-  tags: ["Cryo-EM"],
-  email: "https://www.york.ac.uk/chemistry/people/jblaza/",
-  homepage: undefined,
-};
-
-export const joel_greer: Person = {
-  name: "Joel Greer",
-  tags: ["CCP-EM", "Cryo-EM"],
-  homepage: "https://www.ccpem.ac.uk/people/joel-greer/",
-};
-
-export const johan_turkenburg: Person = {
-  name: "Johan Turkenburg",
-  email: "johan.turkenburg@york.ac.uk",
-  photo: "johan_turkenburg.jpg",
-  tags: ["Cryo-EM", "Crystallography"],
-  homepage: "https://www.york.ac.uk/chemistry/people/jturkenburg/",
-};
-
-export const jola_mirecka: Person = {
-  name: "Jola Mirecka",
-  tags: ["CCP-EM", "Cryo-EM"],
-  homepage: "https://www.ccpem.ac.uk/people/jola-mirecka/",
-};
-
-export const jon_agirre: Person = {
-  name: "Jon Agirre",
-  email: "jon.agirre@york.ac.uk",
-  photo: "jon_agirre.jpg",
-  tags: ["CCP4", "Crystallography", "EDI", "Sugars", "Validation"],
+export const eugene_krissinel: Person = {
+  name: "Eugene Krissinel",
+  email: "eugene.krissinel@stfc.ac.uk",
   homepage:
-    "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/jagirre/",
+    "https://www.rc-harwell.ac.uk/who-we-are/group-leaders/eugene-krissinel",
+  tags: ["CCP4", "Crystallography", "Cloud", "Interfaces"],
+};
+
+export const felicity_bertram: Person = {
+  name: "Felicity Bertram",
+  email: "felicity.bertram@diamond.ac.uk",
+  homepage: "undefined",
+  tags: ["Crystallography", "Data collection", "Synchrotrons"],
+};
+
+export const graeme_winter: Person = {
+  name: "Graeme Winter",
+  email: "gw363@cornell.edu",
+  homepage: "undefined",
+  tags: [
+    "Crystallography",
+    "Synchrotrons",
+    "Data Collection",
+    "Data Processing",
+  ],
+};
+
+export const grzegorz_chojnowski: Person = {
+  name: "Grzegorz Chojnowski",
+  email: "gchojnowski@embl-hamburg.de",
+  homepage: "undefined",
+  tags: ["Crystallography", "Refinement", "Model Building"],
+};
+
+export const halina_mikolajek: Person = {
+  name: "Halina Mikolajek",
+  email: "halina.mikolajek@diamond.ac.uk",
+  homepage:
+    "https://www.diamond.ac.uk/Instruments/Mx/VMXi/Staff/Mikolajek.html",
+  tags: ["Crystallography", "Synchrotrons"],
+};
+
+export const iracema_caballero: Person = {
+  name: "Iracema Caballero",
+  email: "icmcri@ibmb.csic.es",
+  homepage: "https://ibmb.csic.es/en/staff-member/iracema-caballero/",
+  tags: ["Crystallography", "Model Building", "Refinement"],
+};
+
+export const isabel_usón: Person = {
+  name: "Isabel Usón",
+  email: "iufcri@ibmb.csic.es",
+  homepage:
+    "https://www.icrea.cat/community/icreas/17430/isabel-uson-finkenzeller/",
+  tags: ["Crystallography", "Model Building", "Refinement"],
 };
 
 export const jordan_dialpuri: Person = {
   name: "Jordan Dialpuri",
-  tags: ["Model Building", "Nucleic Acids", "Sugars"],
+  email: "jsd523@york.ac.uk",
   homepage: "https://jordandialpuri.co.uk/",
+  tags: ["Model Building", "Nucleic Acids", "Sugars"],
 };
 
-export const kathryn_cowtan: Person = {
-  name: "Kathryn Cowtan",
-  tags: ["CCP4", "Crystallography", "Model Building"],
-  homepage: "https://www.york.ac.uk/chemistry/people/kcowtan/",
+export const judit_debreczeni: Person = {
+  name: "Judit Debreczeni",
+  email: "Judit.Debreczeni@astrazeneca.com",
+  homepage: "undefined",
+  tags: ["Crystallography", "Model Building"],
+};
+
+export const kamel_elomari: Person = {
+  name: "Kamel El Omari",
+  email: "kamel.el-omari@diamond.ac.uk",
+  homepage: "https://www.diamond.ac.uk/Instruments/Mx/I23/Staff/El-Omari.html",
+  tags: [
+    "Crystallography",
+    "Data Collection",
+    "Data Processing",
+    "Phasing",
+    "Metals",
+  ],
+};
+
+export const kay_diederichs: Person = {
+  name: "Kay Diederichs",
+  email: "kay.diederichs@uni-konstanz.de",
+  homepage: "https://www.biologie.uni-konstanz.de/diederichs/",
+  tags: ["Crystallography", "Data Collection", "Data Processing"],
+};
+
+export const lucrezia_catapano: Person = {
+  name: "Lucrezia Catapano",
+  email: "lucrezia@mrc-lmb.cam.ac.uk",
+  homepage: "undefined",
+  tags: ["Crystallography", "Refinement", "Model Building"],
 };
 
 export const lucy_schofield: Person = {
@@ -154,6 +284,20 @@ export const maria_fando: Person = {
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
 
+export const michail_isupov: Person = {
+  name: "Michail Isupov",
+  email: "M.Isupov@exeter.ac.uk",
+  homepage: "https://experts.exeter.ac.uk/1862-michail-isupov",
+  tags: ["Crystallography", "Molecular Replacement"],
+};
+
+export const oleg_kovalevskiy: Person = {
+  name: "Oleg Kovalevskiy",
+  email: "okovalevskiy@deepmind.com",
+  homepage: "undefined",
+  tags: ["Crystallography", "Bioinformatics", "Molecular Replacement"],
+};
+
 export const paul_bond: Person = {
   name: "Paul Bond",
   email: "paul.bond@york.ac.uk",
@@ -162,25 +306,33 @@ export const paul_bond: Person = {
   homepage: "https://paulsbond.co.uk",
 };
 
-export const paul_emsley: Person = {
-  name: "Paul Emsley",
-  tags: ["CCP4", "Model Building", "Validation"],
-  homepage: "https://en.wikipedia.org/wiki/Paul_Emsley_(crystallographer)",
-};
-
-export const pavol_bardy: Person = {
-  name: "Pavol Bardy",
-  tags: ["Electron Tomography"],
-  homepage:
-    "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/pavol-bardy/",
-};
-
 export const pierre_aller: Person = {
   name: "Pierre Aller",
-  tags: ["Crystallography", "Synchrotrons", "Organiser"],
+  tags: ["Crystallography", "Synchrotrons", "XFEL", "Organiser"],
   email: "pierre.aller@diamond.ac.uk",
   photo: "pierre_aller.jpg",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/XFEL-Hub/Team/Aller.html",
+};
+
+export const ramona_duman: Person = {
+  name: "Ramona Duman",
+  email: "ramona.duman@diamond.ac.uk",
+  homepage: "https://www.diamond.ac.uk/Instruments/Mx/I23/Staff/Duman.html",
+  tags: [
+    "Crystallography",
+    "Data collection",
+    "Synchrotrons",
+    "Phasing",
+    "Metals",
+  ],
+};
+
+export const robbie_joosten: Person = {
+  name: "Robbie Joosten",
+  email: "r.joosten@nki.nl",
+  homepage:
+    "https://www.nki.nl/research/find-a-researcher/researchers/robbie-p-joosten/",
+  tags: ["Crystallography", "Model Building", "Refinement"],
 };
 
 export const rob_nicholls: Person = {
@@ -203,65 +355,63 @@ export const ronan_keegan: Person = {
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/ronan-keegan",
 };
 
-export const sam_horrell: Person = {
-  name: "Sam Horrell",
-  tags: ["Crystallography", "Data Collection", "Synchrotrons"],
-  homepage: "https://www.imperial.ac.uk/x-ray-crystallography/",
+export const sandra_eltschkner: Person = {
+  name: "Sandra Eltschkner",
+  email: "Sandra.Eltschkner@jic.ac.uk",
+  homepage: "https://www.jic.ac.uk/people/sandra-eltschkner/",
+  tags: ["Crystallography", "Data collection"],
 };
 
-export const sudakshina_ganguly: Person = {
-  name: "Sudakshina Ganguly",
-  tags: ["Deposition", "PDB"],
-  homepage: "https://www.ebi.ac.uk/people/person/sudakshina-ganguly/",
-};
-
-export const tom_davies: Person = {
-  name: "Tom Davies",
-  tags: ["Drug Discovery"],
-};
-
-export const tracey_gloster: Person = {
-  name: "Tracey Gloster",
-  tags: ["Crystallography", "Sugars"],
-  homepage: "https://www.st-andrews.ac.uk/biology/people/tmg",
-};
-
-export const tristan_croll: Person = {
-  name: "Tristan Croll",
-  tags: ["Cryo-EM", "Model Building"],
-  homepage: "https://tristanic.github.io/isolde/about/index.html",
+export const stuart_mcnicholas: Person = {
+  name: "Stuart McNicholas",
+  email: "stuart.mcnicholas@york.ac.uk",
+  homepage:
+    "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/smcnicholas/",
+  tags: ["CCP4", "Graphics", "Interfaces"],
 };
 
 export const people: Person[] = [
   airlie_mccoy,
+  allen_orville,
   amy_thompson,
+  ana_gonzalez,
+  andrew_quigley,
+  andrea_thorn,
   andrey_lebedev,
   anna_warren,
-  briony_yorke,
-  chris_hill,
-  clement_degut,
-  david_aragao,
+  blake_balcomb,
+  clemens_vonrhein,
+  dan_rigden,
+  danny_axford,
+  daren_fearon,
+  david_aragão,
+  david_lawson,
   david_waterman,
-  huw_jenkins,
-  jamie_blaza,
-  joel_greer,
-  johan_turkenburg,
-  jola_mirecka,
-  jon_agirre,
+  ed_lowe,
+  elspeth_garman,
+  eugene_krissinel,
+  felicity_bertram,
+  graeme_winter,
+  grzegorz_chojnowski,
+  halina_mikolajek,
+  iracema_caballero,
+  isabel_usón,
   jordan_dialpuri,
-  kathryn_cowtan,
+  judit_debreczeni,
+  kamel_elomari,
+  kay_diederichs,
+  lucrezia_catapano,
   lucy_schofield,
-  maria_fando,
   marco_mazzorana,
+  maria_fando,
+  michail_isupov,
+  oleg_kovalevskiy,
   paul_bond,
-  paul_emsley,
-  pavol_bardy,
   pierre_aller,
+  ramona_duman,
+  robbie_joosten,
   rob_nicholls,
   ronan_keegan,
-  sam_horrell,
-  sudakshina_ganguly,
-  tom_davies,
-  tracey_gloster,
-  tristan_croll,
+  sandra_eltschkner,
+  stuart_mcnicholas,
 ];
