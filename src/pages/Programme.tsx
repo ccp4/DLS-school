@@ -18,51 +18,64 @@ function colourForType(
 }
 
 export function Programme() {
+  const zoomDays = days.slice(0, 3);
+  const otherDays = days.slice(3);
+
+  const renderDays = (daysToRender: typeof days) => (
+    <div className="flex flex-wrap justify-center gap-4 p-4">
+      {daysToRender.map((day) => (
+        <div
+          className="flex max-w-xs flex-auto flex-col items-stretch"
+          key={day.title}
+        >
+          <h2 className="bg-sky-800 p-2 text-center text-lg font-bold text-white">
+            {day.title}
+          </h2>
+          <table className="w-full">
+            <tbody>
+              {day.sessions.map((session, idx) => (
+                <tr className={colourForType(session.type)} key={idx}>
+                  <td className="w-10 px-2 py-1 align-top">{session.time}</td>
+                  <td className="px-2 py-1">
+                    <p className="font-bold">{session.title}</p>
+                    <p className="text-[0.9375rem]">
+                      {session.speakers?.map((s) => s.name).join(", ")}
+                    </p>
+                    <p className="text-sm italic">{session.location?.name}</p>
+                  </td>
+                  <td className="px-2 py-1">
+                    {session.location && (
+                      <a href={session.location.link} className="text-lg">
+                        <span className="material-symbols-outlined">
+                          location_on
+                        </span>
+                      </a>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
+    </div>
+  );
+
   return (
     <main className="flex w-full flex-col">
       <p className="text-center">
         The programme is still being finalised and is subject to change.
       </p>
-      <div className="flex flex-wrap justify-center gap-4 p-4">
-        {days.map((day) => {
-          return (
-            <div className="flex max-w-xs flex-auto flex-col items-stretch">
-              <h2 className="bg-sky-800 p-2 text-center text-lg font-bold text-white">
-                {day.title}
-              </h2>
-              <table className="w-full">
-                {day.sessions.map((session) => {
-                  return (
-                    <tr className={colourForType(session.type)}>
-                      <td className="w-10 px-2 py-1 align-top">
-                        {session.time}
-                      </td>
-                      <td className="px-2 py-1">
-                        <p className="font-bold">{session.title}</p>
-                        <p className="text-[0.9375rem]">
-                          {session.speakers?.map((s) => s.name).join(", ")}
-                        </p>
-                        <p className="text-sm italic">
-                          {session.location?.name}
-                        </p>
-                      </td>
-                      <td className="px-2 py-1">
-                        {session.location && (
-                          <a href={session.location.link} className="text-lg">
-                            <span className="material-symbols-outlined">
-                              location_on
-                            </span>
-                          </a>
-                        )}
-                      </td>
-                    </tr>
-                  );
-                })}
-              </table>
-            </div>
-          );
-        })}
-      </div>
+      <h2 className="mt-6 text-center text-xl font-semibold">Online days</h2>
+      {renderDays(zoomDays)}
+      {otherDays.length > 0 && (
+        <>
+          <h2 className="mt-8 text-center text-xl font-semibold">
+            On-site workshop{" "}
+          </h2>
+          {renderDays(otherDays)}
+        </>
+      )}
     </main>
   );
 }
