@@ -8,8 +8,8 @@ export function Home() {
           DLS-CCP4 Data Collection and Structure Solution Workshop 2025
         </h1>
         <p className="text-center text-lg">
-          Zoom days 3rd, 10th and 17th November. On site: 24th November 24th -
-          2nd December 2025
+          Zoom days: 3rd, 10th and 17th November. On site days: 24th November -
+          2nd December
         </p>
       </div>
       <img

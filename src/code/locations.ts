@@ -23,6 +23,11 @@ export const lecture_theatre: Location = {
   link: "https://maps.app.goo.gl/juCHHoCufk7yGjUcA",
 };
 
+export const campus_bus: Location = {
+  name: "Campus Bus Stop",
+  link: "https://maps.app.goo.gl/WsdLMB5CcU6XsBMZ7",
+};
+
 export const mx_village: Location = {
   name: "MX Village",
   link: "https://maps.app.goo.gl/GgLKNJLH3WGHvWPn7",
