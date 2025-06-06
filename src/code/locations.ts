@@ -3,11 +3,6 @@ export interface Location {
   link: string;
 }
 
-export const zoom: Location = {
-  name: "Zoom",
-  link: "",
-};
-
 export const market: Location = {
   name: "Wantage Market Place",
   link: "https://maps.app.goo.gl/AM8Rpjgyz15iN7MTA",
