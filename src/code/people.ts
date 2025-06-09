@@ -352,7 +352,8 @@ export const sandra_eltschkner: Person = {
   name: "Sandra Eltschkner",
   email: "Sandra.Eltschkner@jic.ac.uk",
   homepage: "https://www.jic.ac.uk/people/sandra-eltschkner/",
-  tags: ["Crystallography", "Data collection"],
+  tags: ["Crystallography", "Data collection", "Ligands", "Model Building"],
+  photo: "sandra_eltschkner.jpg",
 };
 
 export const stuart_mcnicholas: Person = {
