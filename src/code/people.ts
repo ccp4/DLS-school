@@ -281,7 +281,13 @@ export const maria_fando: Person = {
   name: "Maria Fando",
   email: "maria.fando@stfc.ac.uk",
   photo: "maria_fando.jpg",
-  tags: ["CCP4", "Crystallography", "Cloud", "Organiser"],
+  tags: [
+    "CCP4",
+    "Crystallography",
+    "Cloud",
+    "Molecular Replacement",
+    "Organiser",
+  ],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
 

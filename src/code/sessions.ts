@@ -6,6 +6,15 @@ import {
   market,
   wildwood,
 } from "./locations";
+
+// Define a custom WorkshopLocation type to avoid conflict with the global Location
+type WorkshopLocation =
+  | typeof diamond_house
+  | typeof lecture_theatre
+  | typeof mx_village
+  | typeof campus_bus
+  | typeof market
+  | typeof wildwood;
 import {
   airlie_mccoy,
   allen_orville,
@@ -51,14 +60,15 @@ import {
   sandra_eltschkner,
   stuart_mcnicholas,
 } from "./people";
-import { diamond } from "./sponsors";
+
+import type { Person } from "./people";
 
 interface Session {
   title: string;
   type: "Lecture" | "Practical" | "Meal" | "Break" | "Other";
   time: string;
   speakers?: Person[];
-  location?: Location;
+  location?: WorkshopLocation;
 }
 
 interface Day {
@@ -202,11 +212,12 @@ const zday3: Day = {
       speakers: [maria_fando],
     },
     {
-      title: "Twinning",
+      title: "Data Processing (inc scaling)",
       type: "Lecture",
       time: "10:15",
-      speakers: [andrea_thorn],
+      speakers: [ana_gonzalez],
     },
+
     {
       title: "Break",
       type: "Break",
@@ -219,10 +230,10 @@ const zday3: Day = {
       speakers: [andrey_lebedev],
     },
     {
-      title: "Data Processing (inc scaling)",
+      title: "Twinning",
       type: "Lecture",
       time: "12:00",
-      speakers: [ana_gonzalez],
+      speakers: [andrea_thorn],
     },
     {
       title: "Lunch",
