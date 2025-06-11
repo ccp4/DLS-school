@@ -66,13 +66,27 @@ export function People() {
             <a
               key={person.name}
               href={person.homepage}
-              className="flex flex-col items-center"
+              className="group relative flex flex-col items-center"
             >
-              <img
-                src={`${import.meta.env.BASE_URL}people/${person.photo || "default.png"}`}
-                className="mb-1 h-36 w-36 rounded-full object-cover"
+              <div
+                className="mb-1 h-36 w-36 rounded-full bg-cover bg-center"
+                style={{
+                  backgroundImage: `url(${import.meta.env.BASE_URL}people/${person.photo || "default.png"})`,
+                }}
+                onContextMenu={(e) => e.preventDefault()}
+                draggable={false}
               />
               <p>{person.name}</p>
+              <div className="pointer-events-none absolute top-full left-1/2 z-10 mt-2 flex -translate-x-1/2 flex-wrap justify-center opacity-0 transition-opacity duration-200 group-hover:pointer-events-auto group-hover:opacity-100">
+                {person.tags?.map((tag) => (
+                  <span
+                    key={tag}
+                    className="text-bg-sky-700 mr-2 mb-1 inline-block rounded bg-sky-200 px-2 py-1 text-left text-xs"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </a>
           );
         })}
