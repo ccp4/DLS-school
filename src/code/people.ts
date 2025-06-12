@@ -47,7 +47,7 @@ export const andrea_thorn: Person = {
   name: "Andrea Thorn",
   email: "andrea.thorn@uni-hamburg.de",
   homepage: "https://thorn-lab.com/team-member/andrea-thorn/",
-  tags: ["Pathologies"],
+  tags: ["Pathologies", "SAD"],
 };
 
 export const andrey_lebedev: Person = {
@@ -58,7 +58,7 @@ export const andrey_lebedev: Person = {
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/andrey-lebedev",
   tags: [
     "CCP4",
-
+    "SAD",
     "Data Processing",
     "Data Pathologies",
     "CCP4I2",
@@ -143,7 +143,7 @@ export const ed_lowe: Person = {
   name: "Ed Lowe",
   email: "edward.lowe@bioch.ox.ac.uk",
   homepage: "https://www.bioch.ox.ac.uk/crystallography",
-  tags: ["Data Processing", "Molecular Replacement", "Symmetry"],
+  tags: ["Data Processing", "Molecular Replacement", "Symmetry", "SAD"],
 };
 export const elspeth_garman: Person = {
   name: "Elspeth Garman",
@@ -204,7 +204,7 @@ export const isabel_usón: Person = {
   email: "iufcri@ibmb.csic.es",
   homepage:
     "https://www.icrea.cat/community/icreas/17430/isabel-uson-finkenzeller/",
-  tags: ["Model Building", "Refinement"],
+  tags: ["Model Building", "Refinement", "Validation"],
 };
 
 export const jordan_dialpuri: Person = {
@@ -301,8 +301,9 @@ export const pierre_aller: Person = {
 export const ramona_duman: Person = {
   name: "Ramona Duman",
   email: "ramona.duman@diamond.ac.uk",
+  photo: "ramona_duman.jpg",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/I23/Staff/Duman.html",
-  tags: ["Data collection", "Synchrotrons", "Phasing", "Metals"],
+  tags: ["Data collection", "Synchrotrons", "Phasing", "Metals", "SAD", "ions"],
 };
 
 export const robbie_joosten: Person = {
