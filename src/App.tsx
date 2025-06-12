@@ -13,6 +13,7 @@ import { Accommodation } from "./pages/Accommodation";
 import { Nav } from "./components/Nav";
 import { People } from "./pages/People";
 import { Programme } from "./pages/Programme";
+import { CourseMaterials } from "./pages/CourseMaterials";
 
 import "./App.css";
 import "material-symbols/outlined.css";
@@ -34,6 +35,7 @@ createRoot(root).render(
           <Route path="accommodation" element={<Accommodation />} />
           <Route path="people" element={<People />} />
           <Route path="programme" element={<Programme />} />
+          <Route path="materials" element={<CourseMaterials />} />
         </Routes>
         <Footer />
       </div>

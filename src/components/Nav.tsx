@@ -25,6 +25,7 @@ export function Nav() {
       <Link to="edi" text="EDI" />
       <Link to="contact" text="Contact" />
       <Link to="apply" text="Apply" />
+      {/* <Link to="materials" text="Course materials" /> */}
     </nav>
   );
 }
