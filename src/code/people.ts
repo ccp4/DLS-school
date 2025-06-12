@@ -53,6 +53,7 @@ export const andrea_thorn: Person = {
 export const andrey_lebedev: Person = {
   name: "Andrey Lebedev",
   email: "andrey.lebedev@stfc.ac.uk",
+  photo: "andrey_lebedev.jpg",
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/andrey-lebedev",
   tags: [
@@ -65,6 +66,8 @@ export const andrey_lebedev: Person = {
     "Molecular Replacement",
     "Refinement",
     "Symmetry",
+    "Validation",
+    "Ligands",
   ],
 };
 
@@ -153,6 +156,7 @@ export const elspeth_garman: Person = {
 export const eugene_krissinel: Person = {
   name: "Eugene Krissinel",
   email: "eugene.krissinel@stfc.ac.uk",
+  photo: "eugene_krissinel.jpg",
   homepage:
     "https://www.rc-harwell.ac.uk/who-we-are/group-leaders/eugene-krissinel",
   tags: ["CCP4", "Cloud"],
