@@ -306,7 +306,8 @@ export const robbie_joosten: Person = {
   email: "r.joosten@nki.nl",
   homepage:
     "https://www.nki.nl/research/find-a-researcher/researchers/robbie-p-joosten/",
-  tags: ["Model Building", "Refinement", "Validation"],
+  tags: ["Model Building", "Refinement", "Validation", "Metals", "Ligands"],
+  photo: "robbie_joosten.jpg",
 };
 
 export const rob_nicholls: Person = {
