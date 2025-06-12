@@ -23,7 +23,7 @@ const root = document.getElementById("root")!;
 createRoot(root).render(
   <HashRouter>
     <StrictMode>
-      <div className="flex flex-col gap-4 p-4 text-gray-900">
+      <div className="flex flex-col gap-4 bg-white p-4 text-gray-900 dark:bg-gray-900">
         <Header />
         <Nav />
         <Routes>

@@ -2,7 +2,7 @@ import { Heading, Link, List } from "../components/Elements";
 
 export function Apply() {
   return (
-    <main className="m-auto flex max-w-7xl flex-col gap-4">
+    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
       <Heading text="Application process" />
       <p>
         Please click{" "}

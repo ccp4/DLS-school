@@ -2,8 +2,8 @@ import { InternalLink, List } from "../components/Elements";
 
 export function Home() {
   return (
-    <main className="m-auto flex max-w-7xl flex-col gap-4">
-      <div>
+    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+      <div className="text-gray-900 dark:bg-gray-900 dark:text-gray-100">
         <h1 className="mb-1 text-center text-3xl font-bold">
           DLS-CCP4 Data Collection and Structure Solution Workshop 2025
         </h1>
@@ -15,7 +15,7 @@ export function Home() {
       <img
         src={`${import.meta.env.BASE_URL}Diamond_aerial.jpg`}
         alt=""
-        className="min-h-40 max-w-full object-cover"
+        className="min-h-40 max-w-full rounded object-cover shadow dark:shadow-lg"
       />
       <p>
         <b>

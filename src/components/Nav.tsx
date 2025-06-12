@@ -5,8 +5,10 @@ function Link({ to, text }: { to: string; text: string }) {
     <NavLink
       to={to}
       className={({ isActive }) =>
-        "flex-auto px-4 py-1 text-center" +
-        (isActive ? " bg-sky-300" : " bg-gray-200 hover:bg-gray-300")
+        "flex-auto px-4 py-1 text-center transition-colors" +
+        (isActive
+          ? " bg-sky-300 dark:bg-sky-800 dark:text-white"
+          : " bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600")
       }
     >
       {text}

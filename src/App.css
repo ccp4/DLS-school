@@ -3,3 +3,12 @@
 .material-symbols-outlined {
   font-size: inherit !important;
 }
+
+.logo-outline-dark {
+  filter: drop-shadow(0 0 2px gray) drop-shadow(0 0 4px gray);
+}
+@media (prefers-color-scheme: light) {
+  .logo-outline-dark {
+    filter: none;
+  }
+}

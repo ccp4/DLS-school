@@ -7,7 +7,10 @@ export function Heading({ text }: { text: string }) {
 
 export function Link({ href, text }: { href: string; text: string }) {
   return (
-    <a href={href} className="text-sky-600 underline hover:text-sky-800">
+    <a
+      href={href}
+      className="text-sky-600 underline hover:text-sky-800 dark:text-sky-300 dark:hover:text-sky-100"
+    >
       {text}
     </a>
   );
@@ -15,7 +18,10 @@ export function Link({ href, text }: { href: string; text: string }) {
 
 export function InternalLink({ to, text }: { to: string; text: string }) {
   return (
-    <NavLink to={to} className="text-sky-600 underline hover:text-sky-800">
+    <NavLink
+      to={to}
+      className="text-sky-600 underline hover:text-sky-800 dark:text-sky-300 dark:hover:text-sky-100"
+    >
       {text}
     </NavLink>
   );

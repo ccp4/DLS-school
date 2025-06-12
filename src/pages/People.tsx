@@ -30,8 +30,8 @@ export function People() {
   }
 
   return (
-    <main className="flex flex-col items-center gap-2">
-      <div className="flex max-w-7xl flex-wrap justify-center gap-2 p-2">
+    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-24 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+      <div className="relative z-50 flex max-w-7xl flex-wrap justify-center gap-2 p-2">
         {Object.keys(tagCount)
           .sort()
           .map((tag) => (
@@ -41,11 +41,15 @@ export function People() {
               className="cursor-pointer"
             >
               <span
-                className={`inline-block rounded-l-xl px-3 py-1 ${selectedTags.includes(tag) ? "bg-sky-700 text-white" : "bg-sky-200"}`}
+                className={`inline-block rounded-l-xl px-3 py-1 ${
+                  selectedTags.includes(tag)
+                    ? "bg-sky-700 text-white dark:bg-sky-400 dark:text-gray-900"
+                    : "bg-sky-200 dark:bg-gray-700 dark:text-gray-100"
+                }`}
               >
                 {tag}
               </span>
-              <span className="inline-block rounded-r-xl bg-gray-200 px-3 py-1">
+              <span className="inline-block rounded-r-xl bg-gray-200 px-3 py-1 dark:bg-gray-800 dark:text-gray-100">
                 {tagCount[tag]}
               </span>
             </button>
@@ -54,7 +58,7 @@ export function People() {
       {selectedTags.length > 0 && (
         <button
           onClick={() => setSelectedTags([])}
-          className="flex cursor-pointer items-center gap-1 rounded-xl bg-gray-100 px-3 py-1"
+          className="flex cursor-pointer items-center gap-1 rounded-xl bg-gray-100 px-3 py-1 dark:bg-gray-700 dark:text-gray-100"
         >
           <span>Clear Selection</span>
           <span className="material-symbols-outlined">close</span>
@@ -69,7 +73,7 @@ export function People() {
               className="group relative flex flex-col items-center"
             >
               <div
-                className="mb-1 h-36 w-36 rounded-full bg-cover bg-center"
+                className="mb-1 h-36 w-36 rounded-full border border-white bg-cover bg-center dark:border-gray-900"
                 style={{
                   backgroundImage: `url(${import.meta.env.BASE_URL}people/${person.photo || "default.png"})`,
                 }}
@@ -81,8 +85,7 @@ export function People() {
                 {person.tags?.map((tag) => (
                   <span
                     key={tag}
-                    // className="text-bg-sky-700 mr-2 mb-1 inline-block min-w-[8rem] rounded bg-sky-200 px-2 py-1 text-left text-xs"
-                    className="text-bg-sky-700 mr-2 mb-1 inline-block rounded bg-sky-200 px-2 py-1 text-left text-xs whitespace-nowrap"
+                    className="mr-2 mb-1 inline-block rounded bg-sky-200 px-2 py-1 text-left text-xs whitespace-nowrap text-sky-700 dark:bg-gray-700 dark:text-sky-200"
                   >
                     {tag}
                   </span>
