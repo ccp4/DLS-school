@@ -32,6 +32,7 @@ export const amy_thompson: Person = {
 export const ana_gonzalez: Person = {
   name: "Ana Gonzalez",
   email: "ana.gonzalez@maxiv.lu.se",
+  photo: "ana_gonzalez.JPG",
   homepage: "https://www.maxiv.lu.se/beamlines-accelerators/beamlines/biomax/",
   tags: ["Data Collection", "Data Processing", "Synchrotrons"],
 };
