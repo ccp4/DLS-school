@@ -5,7 +5,7 @@ export function Home() {
     <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
       <div className="text-gray-900 dark:bg-gray-900 dark:text-gray-100">
         <h1 className="mb-1 text-center text-3xl font-bold">
-          DLS-CCP4 Data Collection and Structure Solution Workshop 2025
+          Diamond-CCP4 Data Collection and Structure Solution Workshop 2025
         </h1>
         <p className="text-center text-lg">
           Zoom days: 3rd, 10th and 17th November. On site days: 24th - 28th

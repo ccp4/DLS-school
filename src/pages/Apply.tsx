@@ -7,7 +7,7 @@ export function Apply() {
       <p>
         Please click{" "}
         <Link
-          href="https://www.diamond.ac.uk/Home/Events/2025/DLS-CCP4.html"
+          href="https://www.diamond.ac.uk/Home/Events/2025/Diamond-CCP4-Data-Collection-and-Structure-Solution-Workshop-2025.html"
           text="here"
         />{" "}
         to apply online at the Diamond Events page.
