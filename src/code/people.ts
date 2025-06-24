@@ -265,7 +265,15 @@ export const maria_fando: Person = {
   name: "Maria Fando",
   email: "maria.fando@stfc.ac.uk",
   photo: "maria_fando.png",
-  tags: ["CCP4", "Cloud", "Molecular Replacement", "Organiser"],
+  tags: [
+    "CCP4",
+    "Cloud",
+    "Molecular Replacement",
+    "Organiser",
+    "Phasing",
+    "Model Building",
+    "Ligands",
+  ],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
 };
 
@@ -312,7 +320,14 @@ export const robbie_joosten: Person = {
   email: "r.joosten@nki.nl",
   homepage:
     "https://www.nki.nl/research/find-a-researcher/researchers/robbie-p-joosten/",
-  tags: ["Model Building", "Refinement", "Validation", "Metals", "Ligands"],
+  tags: [
+    "Model Building",
+    "Refinement",
+    "Validation",
+    "Metals",
+    "Ligands",
+    "COOT",
+  ],
   photo: "robbie_joosten.jpg",
 };
 
@@ -325,7 +340,14 @@ export const rob_nicholls: Person = {
 
 export const ronan_keegan: Person = {
   name: "Ronan Keegan",
-  tags: ["CCP4", "Molecular Replacement"],
+  tags: [
+    "CCP4",
+    "Molecular Replacement",
+    "Cloud",
+    "Data Processing",
+    "Bioinformatics",
+    "Phasing",
+  ],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/ronan-keegan",
 };
 
@@ -342,7 +364,7 @@ export const stuart_mcnicholas: Person = {
   email: "stuart.mcnicholas@york.ac.uk",
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/smcnicholas/",
-  tags: ["CCP4", "Graphics", "CCP4I2", "Moorhen"],
+  tags: ["CCP4", "CCP4I2", "Moorhen"],
 };
 
 export const people: Person[] = [
