@@ -19,6 +19,21 @@ export function Apply() {
           their application.
         </b>
       </p>
+      <p>
+        <b>
+          Participants are responsible for making their own travel arrangements
+          and ensuring that they are able to attend the Diamond-CCP4 Data
+          Collection and Structure Solution Workshop 2025. It is recommended
+          that you check any visa requirements with your local embassy or
+          consulate for visa entry to the UK. Participants should inform
+          themselves of the entry requirements (i.e. visa requirements) of the
+          event location and complete the necessary formalities in good time
+          before the event begins. Neither Diamond nor STFC will be liable if a
+          visa application is denied, a visa is received too late to attend, or
+          if a delegate is not able to travel to the Diamond-CCP4 Data
+          Collection and Structure Solution Workshop 2025.
+        </b>
+      </p>
     </main>
   );
 }
