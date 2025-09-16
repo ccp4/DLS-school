@@ -9,8 +9,9 @@ export interface Person {
 export const airlie_mccoy: Person = {
   name: "Airlie McCoy",
   email: "ajm201@cam.ac.uk",
+  photo: "airlie_mccoy.png",
   homepage: "https://www.cimr.cam.ac.uk/staff/dr-airlie-mccoy",
-  tags: ["CCP4", "Molecular Replacement"],
+  tags: ["CCP4", "Molecular Replacement", "SAD", "Phasing"],
 };
 
 export const allen_orville: Person = {
@@ -47,6 +48,7 @@ export const andrew_quigley: Person = {
 export const andrea_thorn: Person = {
   name: "Andrea Thorn",
   email: "andrea.thorn@uni-hamburg.de",
+  photo: "andrea_thorn.jpeg",
   homepage: "https://thorn-lab.com/team-member/andrea-thorn/",
   tags: ["Pathologies", "SAD"],
 };
@@ -312,7 +314,7 @@ export const ramona_duman: Person = {
   email: "ramona.duman@diamond.ac.uk",
   photo: "ramona_duman.jpg",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/I23/Staff/Duman.html",
-  tags: ["Data collection", "Synchrotrons", "Phasing", "Metals", "SAD", "ions"],
+  tags: ["Data collection", "Synchrotrons", "Phasing", "Metals", "SAD", "Ions"],
 };
 
 export const robbie_joosten: Person = {
@@ -362,6 +364,7 @@ export const sandra_eltschkner: Person = {
 export const stuart_mcnicholas: Person = {
   name: "Stuart McNicholas",
   email: "stuart.mcnicholas@york.ac.uk",
+  photo: "stuart_mcnicholas.png",
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/smcnicholas/",
   tags: ["CCP4", "CCP4I2", "Moorhen"],
@@ -376,11 +379,11 @@ export const people: Person[] = [
   andrea_thorn,
   andrey_lebedev,
   anna_warren,
-  blake_balcomb,
+  // blake_balcomb,
   clemens_vonrhein,
   dan_rigden,
   danny_axford,
-  daren_fearon,
+  // daren_fearon,
   david_aragão,
   david_lawson,
   david_waterman,

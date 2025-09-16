@@ -193,6 +193,12 @@ const zday2: Day = {
       type: "Lecture",
       time: "13:30",
     },
+    {
+      title: "Twinning",
+      type: "Lecture",
+      time: "14:15",
+      speakers: [andrea_thorn],
+    },
   ],
 };
 
@@ -230,10 +236,10 @@ const zday3: Day = {
       speakers: [andrey_lebedev],
     },
     {
-      title: "Twinning",
+      title: "Dose driven data collection to optimise your experiments",
       type: "Lecture",
       time: "12:00",
-      speakers: [andrea_thorn],
+      speakers: [david_aragão],
     },
     {
       title: "Lunch",
@@ -252,10 +258,10 @@ const zday3: Day = {
       time: "14:45",
     },
     {
-      title: "Dose driven data collection to optimise your experiments",
-      type: "Lecture",
+      title: "Follow up Fed ID problems and CCP4 Cloud logins",
+      type: "Practical",
       time: "15:00",
-      speakers: [david_aragão],
+      speakers: [marco_mazzorana, maria_fando],
     },
   ],
 };
@@ -666,7 +672,7 @@ const day5: Day = {
       type: "Lecture",
       time: "10:45",
       location: lecture_theatre,
-      speakers: [daren_fearon, blake_balcomb],
+      speakers: [],
     },
     {
       title: "Break",
