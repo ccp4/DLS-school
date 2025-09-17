@@ -17,6 +17,7 @@ export const airlie_mccoy: Person = {
 export const allen_orville: Person = {
   name: "Allen Orville",
   email: "allen.orville@diamond.ac.uk",
+  photo: "allen_orville.jpg",
   homepage:
     "https://www.diamond.ac.uk/Instruments/Mx/Research/Orville-Group/Orville.html",
   tags: ["XFEL"],
@@ -41,6 +42,7 @@ export const ana_gonzalez: Person = {
 export const andrew_quigley: Person = {
   name: "Andrew Quigley",
   email: "andrew.quigley@diamond.ac.uk",
+  photo: "andrew_quigley.jpg",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/MPL/Staff/Quigley.html",
   tags: ["Membrane Proteins"],
 };
@@ -100,6 +102,7 @@ export const clemens_vonrhein: Person = {
 export const dan_rigden: Person = {
   name: "Dan Rigden",
   email: "drigden@liverpool.ac.uk",
+  photo: "dan_rigden.webp",
   homepage: "https://www.liverpool.ac.uk/people/daniel-rigden",
   tags: ["Bioinformatics"],
 };
@@ -122,6 +125,7 @@ export const daren_fearon: Person = {
 export const david_aragão: Person = {
   name: "David Aragão",
   email: "david.aragao@diamond.ac.uk",
+  photo: "david_aragao.jpg",
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-aragao",
   tags: ["Data collection", "Synchrotrons", "Radiation Damage"],
 };
@@ -129,6 +133,7 @@ export const david_aragão: Person = {
 export const david_lawson: Person = {
   name: "David Lawson",
   email: "david.lawson@jic.ac.uk",
+  photo: "david_lawson.png",
   homepage: "https://www.jic.ac.uk/people/david-lawson/",
   tags: ["Data Collection", "Data Processing"],
 };
@@ -151,6 +156,7 @@ export const ed_lowe: Person = {
 export const elspeth_garman: Person = {
   name: "Elspeth Garman",
   email: "elspeth.garman@bioch.ox.ac.uk",
+  photo: "elspeth_garman.jpg",
   homepage:
     "https://www.ox.ac.uk/news-and-events/find-an-expert/professor-elspeth-garman",
   tags: ["Data Collection", "Radiation Damage"],
@@ -168,7 +174,6 @@ export const eugene_krissinel: Person = {
 export const felicity_bertram: Person = {
   name: "Felicity Bertram",
   email: "felicity.bertram@diamond.ac.uk",
-  homepage: "undefined",
   tags: ["Data collection", "Synchrotrons"],
 };
 
@@ -190,6 +195,7 @@ export const grzegorz_chojnowski: Person = {
 export const halina_mikolajek: Person = {
   name: "Halina Mikolajek",
   email: "halina.mikolajek@diamond.ac.uk",
+  photo: "halina_mikolajek.jpg",
   homepage:
     "https://www.diamond.ac.uk/Instruments/Mx/VMXi/Staff/Mikolajek.html",
   tags: ["Synchrotrons"],
@@ -198,6 +204,7 @@ export const halina_mikolajek: Person = {
 export const iracema_caballero: Person = {
   name: "Iracema Caballero",
   email: "icmcri@ibmb.csic.es",
+  photo: "iracema_caballero.jpg",
   homepage: "https://ibmb.csic.es/en/staff-member/iracema-caballero/",
   tags: ["Model Building", "Refinement", "Validation"],
 };
@@ -205,6 +212,7 @@ export const iracema_caballero: Person = {
 export const isabel_usón: Person = {
   name: "Isabel Usón",
   email: "iufcri@ibmb.csic.es",
+  photo: "isabel_usón.jpg",
   homepage:
     "https://www.icrea.cat/community/icreas/17430/isabel-uson-finkenzeller/",
   tags: ["Model Building", "Refinement", "Validation"],
@@ -213,6 +221,7 @@ export const isabel_usón: Person = {
 export const jordan_dialpuri: Person = {
   name: "Jordan Dialpuri",
   email: "jsd523@york.ac.uk",
+  photo: "jordan_dialpuri.png",
   homepage: "https://jordandialpuri.co.uk/",
   tags: ["Model Building", "Nucleic Acids", "Sugars"],
 };
@@ -227,6 +236,7 @@ export const judit_debreczeni: Person = {
 export const kamel_elomari: Person = {
   name: "Kamel El Omari",
   email: "kamel.el-omari@diamond.ac.uk",
+  photo: "kamel_elomari.webp",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/I23/Staff/El-Omari.html",
   tags: ["Data Collection", "Data Processing", "Phasing", "Metals"],
 };
@@ -290,7 +300,8 @@ export const oleg_kovalevskiy: Person = {
   name: "Oleg Kovalevskiy",
   email: "okovalevskiy@deepmind.com",
   homepage: "undefined",
-  tags: ["Bioinformatics", "Molecular Replacement"],
+  photo: "oleg_kovalevskiy.jpg",
+  tags: ["Bioinformatics", "Model building", "Validation"],
 };
 
 export const paul_bond: Person = {
@@ -351,6 +362,7 @@ export const ronan_keegan: Person = {
     "Phasing",
   ],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/ronan-keegan",
+  photo: "ronan_keegan.jpg",
 };
 
 export const sandra_eltschkner: Person = {
@@ -368,6 +380,14 @@ export const stuart_mcnicholas: Person = {
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/smcnicholas/",
   tags: ["CCP4", "CCP4I2", "Moorhen"],
+};
+export const hans_gildenast: Person = {
+  name: "Hans Gildenast",
+  email: "hans.gildenast@dectris.com",
+  photo: "hans_gildenast.jpg",
+  homepage:
+    "https://www.dectris.com/en/company/news/newsroom/news/From-user-to-application-scientist-meet-hans-gildenast/",
+  tags: ["Data Collection", "Synchrotrons", "Symmetry", "Metals"],
 };
 
 export const people: Person[] = [
@@ -414,4 +434,5 @@ export const people: Person[] = [
   ronan_keegan,
   sandra_eltschkner,
   stuart_mcnicholas,
+  hans_gildenast,
 ];

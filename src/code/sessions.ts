@@ -59,6 +59,7 @@ import {
   ronan_keegan,
   sandra_eltschkner,
   stuart_mcnicholas,
+  hans_gildenast,
 } from "./people";
 
 import type { Person } from "./people";
@@ -182,6 +183,7 @@ const zday2: Day = {
       title: "Data Collection Strategies for Photon Counting Detectors",
       type: "Lecture",
       time: "12:00",
+      speakers: [hans_gildenast],
     },
     {
       title: "Lunch",
