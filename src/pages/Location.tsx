@@ -2,7 +2,7 @@ import { Heading, Link } from "../components/Elements";
 
 export function Location() {
   return (
-    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-24 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-32 text-gray-900 sm:pb-24 dark:bg-gray-900 dark:text-gray-100">
       <video
         src={`how-diamond-works.mp4`}
         poster={`https://www.diamond.ac.uk/dam/jcr:cc4ec81e-d480-4821-94c2-a5b982079f94/2024-12-10-Diamond-Aerial-Photo-with-PV.png`}

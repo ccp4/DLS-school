@@ -30,7 +30,7 @@ export function People() {
   }
 
   return (
-    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-24 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-32 text-gray-900 sm:pb-24 dark:bg-gray-900 dark:text-gray-100">
       <div className="relative z-50 flex max-w-7xl flex-wrap justify-center gap-2 p-2">
         {Object.keys(tagCount)
           .sort()

@@ -2,7 +2,7 @@ import { materials, ccp4CloudTutorials } from "../code/materials.ts";
 
 export function CourseMaterials() {
   return (
-    <main className="m-auto flex max-w-4xl flex-col gap-4 p-4">
+    <main className="m-auto flex max-w-4xl flex-col gap-4 p-4 pb-32 sm:pb-24">
       <h1 className="mb-2 text-2xl font-bold">Course Materials</h1>
       <p>
         Here you will find slides, tutorial links, datasets, and other resources

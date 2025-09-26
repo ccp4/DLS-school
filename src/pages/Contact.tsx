@@ -3,7 +3,7 @@ import { people } from "../code/people";
 
 export function Contact() {
   return (
-    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-32 text-gray-900 sm:pb-24 dark:bg-gray-900 dark:text-gray-100">
       <Heading text="Contact us" />
       <p className="max-w-4xl">
         Feel free to contact any or all of the organisers should you have any

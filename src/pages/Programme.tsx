@@ -62,7 +62,7 @@ export function Programme() {
   );
 
   return (
-    <main className="flex min-h-screen w-full flex-col pb-24">
+    <main className="flex min-h-screen w-full flex-col pb-40 sm:pb-24">
       <p className="text-center">
         The programme is still being finalised and is subject to change.
       </p>

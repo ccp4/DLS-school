@@ -2,7 +2,7 @@ import { Heading, Link } from "../components/Elements";
 
 export function Accommodation() {
   return (
-    <main className="m-auto flex h-screen max-w-7xl flex-col gap-4 bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <main className="m-auto flex h-screen max-w-7xl flex-col gap-4 bg-white pb-32 text-gray-900 sm:pb-24 dark:bg-gray-900 dark:text-gray-100">
       <Heading text="Accommodation" />
       <p>
         Rooms for both students and speakers have been arranged at{" "}

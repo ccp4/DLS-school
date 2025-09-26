@@ -2,7 +2,7 @@ import { Heading, InternalLink, List } from "../components/Elements";
 
 export function Edi() {
   return (
-    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-24 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-32 text-gray-900 sm:pb-24 dark:bg-gray-900 dark:text-gray-100">
       <Heading text="Statement on equity and inclusion" />
       <p>
         The organisers are committed to making the school productive and
