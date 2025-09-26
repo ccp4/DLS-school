@@ -39,7 +39,7 @@ import {
   graeme_winter,
   grzegorz_chojnowski,
   halina_mikolajek,
-  iracema_caballero,
+  elisabet_jimenez,
   isabel_usón,
   jordan_dialpuri,
   judit_debreczeni,
@@ -719,7 +719,7 @@ const day5: Day = {
       type: "Lecture",
       time: "14:30",
       location: lecture_theatre,
-      speakers: [isabel_usón, iracema_caballero],
+      speakers: [isabel_usón, elisabet_jimenez],
     },
     {
       title: "Break",

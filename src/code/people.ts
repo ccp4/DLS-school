@@ -201,11 +201,10 @@ export const halina_mikolajek: Person = {
   tags: ["Synchrotrons"],
 };
 
-export const iracema_caballero: Person = {
-  name: "Iracema Caballero",
-  email: "icmcri@ibmb.csic.es",
-  photo: "iracema_caballero.jpg",
-  homepage: "https://ibmb.csic.es/en/staff-member/iracema-caballero/",
+export const elisabet_jimenez: Person = {
+  name: "Elisabet Jiménez",
+  email: "ejmcri@ibmb.csic.es",
+  homepage: "https://ibmb.csic.es/en/staff-member/elisabet-jimenez/",
   tags: ["Model Building", "Refinement", "Validation"],
 };
 
@@ -414,7 +413,7 @@ export const people: Person[] = [
   graeme_winter,
   grzegorz_chojnowski,
   halina_mikolajek,
-  iracema_caballero,
+  elisabet_jimenez,
   isabel_usón,
   jordan_dialpuri,
   judit_debreczeni,
