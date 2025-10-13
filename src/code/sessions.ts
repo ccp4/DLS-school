@@ -434,10 +434,10 @@ const day2: Day = {
       location: lecture_theatre,
     },
     {
-      title: "X35 bus back to Wantage",
+      title: "Coach back to Wantage",
       type: "Other",
-      time: "20:18",
-      location: campus_bus,
+      time: "20:15",
+      location: diamond_house,
     },
   ],
 };
@@ -539,10 +539,10 @@ const day3: Day = {
       location: lecture_theatre,
     },
     {
-      title: "X35 bus back to Wantage",
+      title: "Coach back to Wantage",
       type: "Other",
-      time: "20:18",
-      location: campus_bus,
+      time: "20:15",
+      location: diamond_house,
     },
   ],
 };
@@ -638,10 +638,10 @@ const day4: Day = {
       location: lecture_theatre,
     },
     {
-      title: "X35 bus back to Wantage",
+      title: "Coach back to Wantage",
       type: "Other",
-      time: "20:18",
-      location: campus_bus,
+      time: "20:15",
+      location: diamond_house,
     },
   ],
 };
@@ -745,10 +745,10 @@ const day5: Day = {
       location: lecture_theatre,
     },
     {
-      title: "X35 bus back to Wantage",
+      title: "Coach back to Wantage",
       type: "Other",
-      time: "18:25",
-      location: campus_bus,
+      time: "18:15",
+      location: diamond_house,
     },
     {
       title: "Workshop Dinner",
