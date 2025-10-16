@@ -260,10 +260,10 @@ const zday3: Day = {
       time: "14:45",
     },
     {
-      title: "Follow up Fed ID problems and CCP4 Cloud logins",
+      title: "Follow up Fed ID problems and Q&A",
       type: "Practical",
       time: "15:00",
-      speakers: [marco_mazzorana, maria_fando],
+      speakers: [marco_mazzorana],
     },
   ],
 };
@@ -705,7 +705,7 @@ const day5: Day = {
       type: "Lecture",
       time: "13:00",
       location: lecture_theatre,
-      speakers: [daren_fearon, blake_balcomb],
+      speakers: [lucrezia_catapano],
     },
     {
       title: "CCP4MG",
