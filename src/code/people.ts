@@ -170,6 +170,14 @@ export const eugene_krissinel: Person = {
     "https://www.rc-harwell.ac.uk/who-we-are/group-leaders/eugene-krissinel",
   tags: ["CCP4", "Cloud"],
 };
+export const charles_ballard: Person = {
+  name: "Charles Ballard",
+  email: "charles.ballard@stfc.ac.uk",
+  photo: "charles_ballard.jpg",
+  homepage:
+    "https://www.rc-harwell.ac.uk/who-we-are/researchers/charles-ballard",
+  tags: ["CCP4", "Data Processing"],
+};
 
 export const felicity_bertram: Person = {
   name: "Felicity Bertram",
@@ -408,9 +416,10 @@ export const people: Person[] = [
   david_waterman,
   ed_lowe,
   elspeth_garman,
-  eugene_krissinel,
-  felicity_bertram,
-  graeme_winter,
+  // eugene_krissinel,
+  charles_ballard,
+  // felicity_bertram,
+  // graeme_winter,
   grzegorz_chojnowski,
   halina_mikolajek,
   elisabet_jimenez,
