@@ -60,6 +60,7 @@ import {
   sandra_eltschkner,
   stuart_mcnicholas,
   hans_gildenast,
+  charles_ballard,
 } from "./people";
 
 import type { Person } from "./people";
@@ -129,7 +130,7 @@ const zday1: Day = {
       type: "Lecture",
       time: "13:45",
 
-      speakers: [eugene_krissinel],
+      speakers: [charles_ballard],
     },
     {
       title: "Break",
