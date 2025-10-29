@@ -675,7 +675,7 @@ const day5: Day = {
       type: "Lecture",
       time: "10:45",
       location: lecture_theatre,
-      speakers: [],
+      speakers: [blake_balcomb],
     },
     {
       title: "Break",
@@ -748,7 +748,7 @@ const day5: Day = {
     {
       title: "Coach back to Wantage",
       type: "Other",
-      time: "18:15",
+      time: "18:25",
       location: diamond_house,
     },
     {
