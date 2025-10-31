@@ -73,13 +73,26 @@ interface Session {
   location?: WorkshopLocation;
 }
 
+// added ZoomInfo and allow Day to include zoom link
+type ZoomInfo = {
+  url: string;
+  meetingId?: string;
+  passcode?: string;
+};
+
 interface Day {
   title: string;
   sessions: Session[];
+  zoom?: ZoomInfo;
 }
 
 const zday1: Day = {
   title: "Zoom Day 1 - Mon 3rd Nov",
+  zoom: {
+    url: "https://diamondlight.zoom.us/j/94055217079?pwd=zc4TY1C9euw7C3wAoLoJITaaabhfHd.1",
+    meetingId: "940 5521 7079",
+    passcode: "122468",
+  },
   sessions: [
     {
       title: "Informal hello / meet and greet",
@@ -126,23 +139,24 @@ const zday1: Day = {
       time: "13:15",
     },
     {
-      title: "Introduction to CCP4",
+      title: "Cryocrystallography",
       type: "Lecture",
       time: "13:45",
 
-      speakers: [charles_ballard],
+      speakers: [elspeth_garman],
     },
     {
       title: "Break",
       type: "Break",
       time: "14:30",
     },
+
     {
-      title: "Cryocrystallography",
+      title: "Introduction to CCP4",
       type: "Lecture",
       time: "14:45",
 
-      speakers: [elspeth_garman],
+      speakers: [charles_ballard],
     },
   ],
 };

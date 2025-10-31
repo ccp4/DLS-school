@@ -61,6 +61,8 @@ export function Programme() {
     </div>
   );
 
+  const firstZoom = zoomDays.find((d) => d.zoom)?.zoom;
+
   return (
     <main className="flex min-h-screen w-full flex-col pb-40 sm:pb-24">
       <p className="text-center text-gray-700 dark:text-gray-200">
@@ -69,6 +71,26 @@ export function Programme() {
       <h2 className="mt-6 text-center text-xl font-semibold text-gray-700 dark:text-gray-200">
         Online days
       </h2>
+
+      {firstZoom && (
+        <div className="mt-2 text-center text-gray-700 dark:text-gray-200">
+          <a
+            href={firstZoom.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-gray-700 underline dark:text-gray-200"
+          >
+            Join Zoom meeting
+          </a>
+          {firstZoom.meetingId && (
+            <div className="mt-1">Meeting ID: {firstZoom.meetingId}</div>
+          )}
+          {firstZoom.passcode && (
+            <div className="mt-1">Passcode: {firstZoom.passcode}</div>
+          )}
+        </div>
+      )}
+
       {renderDays(zoomDays)}
       {otherDays.length > 0 && (
         <>
