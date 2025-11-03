@@ -65,9 +65,6 @@ export function Programme() {
 
   return (
     <main className="flex min-h-screen w-full flex-col pb-40 sm:pb-24">
-      <p className="text-center text-gray-700 dark:text-gray-200">
-        The programme is still being finalised and is subject to change.
-      </p>
       <h2 className="mt-6 text-center text-xl font-semibold text-gray-700 dark:text-gray-200">
         Online days
       </h2>

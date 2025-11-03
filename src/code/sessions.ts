@@ -134,17 +134,18 @@ const zday1: Day = {
       time: "12:30",
     },
     {
-      title: "Navigating Diamond SynchWeb and test log in",
-      type: "Practical",
-      time: "13:15",
-    },
-    {
       title: "Cryocrystallography",
       type: "Lecture",
-      time: "13:45",
+      time: "13:00",
 
       speakers: [elspeth_garman],
     },
+    {
+      title: "Navigating Diamond SynchWeb and test log in",
+      type: "Practical",
+      time: "13:45",
+    },
+
     {
       title: "Break",
       type: "Break",
