@@ -59,9 +59,7 @@ function MaterialsList() {
   }
   return (
     <section className="mt-6">
-      <h2 className="mb-2 text-xl font-semibold">
-        Lecture and workshop slides
-      </h2>
+      <h2 className="mb-2 text-xl font-semibold">Slides</h2>
       <ul className="list-disc pl-6">
         {materials.map((item: Material) => (
           <li key={item.id}>

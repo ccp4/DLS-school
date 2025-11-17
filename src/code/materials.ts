@@ -22,10 +22,52 @@ export const ccp4CloudTutorials = [
  * Slides and other materials
  */
 export const materials = [
-  // {
-  //   id: 1,
-  //   link: "/slide.pdf",
-  //   title: "Lecture slides",
-  //   description: "balblablah",
-  // },
+  {
+    id: 1,
+    link: "./slides/25_11_10_CCP4_DECTRIS_data_collection_strategies.pdf",
+    title: "Data Collection Strategies for Photon Counting Detectors",
+    description: "Hans Gildenast",
+  },
+  {
+    id: 2,
+    link: "./slides/AlphaFold-DLS-CCP4%20Workshop%202025.pdf",
+    title: "AlphaFold use for experimental structural biology",
+    description: "Oleg Kovalevskiy",
+  },
+  {
+    id: 3,
+    link: "./slides/CCP4%20Cloud_Fando.pdf",
+    title: "CCP4 Cloud introduction",
+    description: "Maria Fando",
+  },
+  {
+    id: 4,
+    link: "./slides/CCP4_Diamond_2025_Rigden_bioinformatics2.pdf",
+    title: "Bioinformatics for structural biologists",
+    description: "Dan Rigden",
+  },
+  {
+    id: 5,
+    link: "./slides/CCP4-Road-Map_Charles.pdf",
+    title: "CCP4 Road Map",
+    description: "Charles Ballard",
+  },
+  {
+    id: 6,
+    link: "./slides/DLS-CCP4_Difftheo_ElOmari_2025.pdf",
+    title: "Basic Diffraction Theory",
+    description: "Kamel El Omari",
+  },
+  {
+    id: 7,
+    link: "./slides/Garman-CCP4-DLS-Nov-2025-cryo.pdf",
+    title: "Cryocrystallography",
+    description: "Elspeth Garman",
+  },
+  {
+    id: 8,
+    link: "./slides/Optimising_the_Diamond_experience_Dave_Lawson_2025_for_slack.pdf",
+    title: "Optimising the Diamond experience",
+    description: "Dave Lawson",
+  },
 ];
