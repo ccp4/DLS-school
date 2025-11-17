@@ -210,6 +210,7 @@ const zday2: Day = {
       title: "Optimising the Diamond experience",
       type: "Lecture",
       time: "13:30",
+      speakers: [david_lawson],
     },
     {
       title: "Twinning",
