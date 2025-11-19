@@ -1,4 +1,4 @@
-import { materials, ccp4CloudTutorials } from "../code/materials.ts";
+import { materials, ccp4CloudTutorials } from "../code/materials";
 
 export function CourseMaterials() {
   return (
@@ -83,4 +83,4 @@ function MaterialsList() {
   );
 }
 
-export default MaterialsList;
+export default CourseMaterials;

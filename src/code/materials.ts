@@ -21,7 +21,12 @@ export const ccp4CloudTutorials = [
 /**
  * Slides and other materials
  */
-export const materials = [
+export const materials: {
+  id: number;
+  link: string;
+  title: string;
+  description: string;
+}[] = [
   {
     id: 1,
     link: "./slides/25_11_10_CCP4_DECTRIS_data_collection_strategies.pdf",
@@ -69,5 +74,29 @@ export const materials = [
     link: "./slides/Optimising_the_Diamond_experience_Dave_Lawson_2025_for_slack.pdf",
     title: "Optimising the Diamond experience",
     description: "Dave Lawson",
+  },
+  {
+    id: 9,
+    link: "./slides/Data_collection.pdf",
+    title: "Dose driven data collection to optimise your experiments",
+    description: "David Aragão",
+  },
+  {
+    id: 10,
+    link: "./slides/Data-processing_Ana.pdf",
+    title: "Data Processing - opening the Black Box",
+    description: "Ana Gonzalez",
+  },
+  {
+    id: 11,
+    link: "./slides/DLS_2025_symm_v1.pdf",
+    title: "Introduction to space groups",
+    description: "Andrey Lebedev",
+  },
+  {
+    id: 12,
+    link: "./slides/Garman-CCCP4-DLS-Nov-2025-rad-dam.pdf",
+    title: "Radiation Damage",
+    description: "Elspeth Garman",
   },
 ];
