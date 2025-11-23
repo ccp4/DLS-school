@@ -316,7 +316,7 @@ const day1: Day = {
     {
       title: "Data collection and processing",
       type: "Practical",
-      time: "10:15",
+      time: "10:30",
       location: mx_village,
     },
     {
@@ -324,6 +324,13 @@ const day1: Day = {
       type: "Practical",
       time: "10:15",
       location: lecture_theatre,
+    },
+    {
+      title: "I24",
+      type: "Lecture",
+      time: "10:45",
+      location: lecture_theatre,
+      speakers: [danny_axford],
     },
     {
       title: "Lunch",
@@ -381,16 +388,9 @@ const day2: Day = {
     {
       title: "Multi-crystal approaches",
       type: "Lecture",
-      time: "10:00",
+      time: "10:15",
       location: lecture_theatre,
       speakers: [amy_thompson],
-    },
-    {
-      title: "I24",
-      type: "Lecture",
-      time: "10:45",
-      location: lecture_theatre,
-      speakers: [danny_axford],
     },
     {
       title: "Break",
