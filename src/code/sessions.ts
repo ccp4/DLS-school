@@ -314,21 +314,15 @@ const day1: Day = {
       speakers: [kay_diederichs],
     },
     {
-      title: "Data collection and processing",
-      type: "Practical",
-      time: "10:30",
-      location: mx_village,
-    },
-    {
       title: "DIALS demo/tutorial",
       type: "Practical",
-      time: "10:15",
+      time: "10:30",
       location: lecture_theatre,
     },
     {
       title: "I24",
       type: "Lecture",
-      time: "10:45",
+      time: "12:00",
       location: lecture_theatre,
       speakers: [danny_axford],
     },
