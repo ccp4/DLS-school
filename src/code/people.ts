@@ -418,6 +418,22 @@ export const hans_gildenast: Person = {
   homepage:
     "https://www.dectris.com/en/company/news/newsroom/news/From-user-to-application-scientist-meet-hans-gildenast/",
   tags: ["Data Collection", "Synchrotrons", "Symmetry", "Ions/Metals"],
+};
+export const chris_orr: Person = {
+  name: "Christian Orr",
+  email: "christian.orr@diamond.ac.uk",
+  photo: "chris_orr.jpg",
+  homepage:
+    "https://www.diamond.ac.uk/Instruments/Mx/I23/Staff/Christian-Orr.html",
+  tags: [
+    "Data Collection",
+    "Synchrotrons",
+    "Data Processing",
+    "Phasing",
+    "SAD",
+    "Ions/Metals",
+    "Laser shaping",
+  ],
   availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
 };
 
@@ -467,4 +483,5 @@ export const people: Person[] = [
   sandra_eltschkner,
   stuart_mcnicholas,
   hans_gildenast,
+  chris_orr,
 ];
