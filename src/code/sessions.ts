@@ -398,21 +398,21 @@ const day2: Day = {
       speakers: [andrey_lebedev],
     },
     {
-      title: "VMXi",
-      type: "Lecture",
-      time: "12:00",
-      location: lecture_theatre,
-      speakers: [halina_mikolajek],
-    },
-    {
       title: "Lunch",
       type: "Meal",
       time: "12:15",
     },
     {
+      title: "VMXi",
+      type: "Lecture",
+      time: "13:00",
+      location: lecture_theatre,
+      speakers: [halina_mikolajek],
+    },
+    {
       title: "Work on your own data",
       type: "Practical",
-      time: "13:00",
+      time: "13:15",
       location: lecture_theatre,
     },
     {
