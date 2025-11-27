@@ -161,6 +161,12 @@ export const materials: {
     title: "Privateer",
     description: "Lucy Schofield",
   },
+  {
+    id: 23,
+    link: "./slides/Nucleic Acids.pdf",
+    title: "Nucleic Acids",
+    description: "Jordan Dialpuri",
+  },
 ];
 
 export const extra_materials = [
