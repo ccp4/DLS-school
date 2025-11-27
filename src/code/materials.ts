@@ -137,6 +137,12 @@ export const materials: {
     title: "Molecular replacement",
     description: "Airlie McCoy",
   },
+  {
+    id: 19,
+    link: "./slides/Isupov_cases_updated_25.pdf",
+    title: "Molecular replacement experiences",
+    description: "Michail Isupov",
+  },
 ];
 
 export const extra_materials = [
