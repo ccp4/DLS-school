@@ -2,6 +2,8 @@
  * Workshop materials
  */
 
+import { Link } from "../components/Elements";
+
 export const ccp4CloudTutorials = [
   {
     link: "https://cloud.ccp4.ac.uk/",
@@ -98,5 +100,57 @@ export const materials: {
     link: "./slides/Garman-CCCP4-DLS-Nov-2025-rad-dam.pdf",
     title: "Radiation Damage",
     description: "Elspeth Garman",
+  },
+  {
+    id: 13,
+    link: "./slides/multi_crystal_methods.pdf",
+    title: "Multi-Crystal Methods",
+    description: "Amy Thompson",
+  },
+  {
+    id: 14,
+    link: "./slides/DLS-CCP4 2025 - The Phase Problem.pdf",
+    title: "The Phase Problem",
+    description: "Ed Lowe",
+  },
+  {
+    id: 15,
+    link: "./slides/Data_processing_with_XDS.pdf",
+    title: "Data processing with XDS and associated programs",
+    description: "Kay Diederichs",
+  },
+  {
+    id: 16,
+    link: "./slides/Data_precision_and_accuracy.pdf",
+    title: "Data precision and accuracy. Let’s talk about errors, and mistakes",
+    description: "Kay Diederichs",
+  },
+  {
+    id: 17,
+    link: "./slides/Coot&Moorhen_LC.pdf",
+    title: "COOT & Moorhen",
+    description: "Lucrezia Catapano",
+  },
+  {
+    id: 18,
+    link: "./slides/Diamond_McCoy_Molecular_Replacement_2025.pdf",
+    title: "Molecular replacement",
+    description: "Airlie McCoy",
+  },
+];
+
+export const extra_materials = [
+  {
+    link: "./extas/Cheat_sheet-XDSwiki.pdf",
+    title: "XDS cheat sheet",
+  },
+  {
+    link: "./extas/Acta-D-Shelley-Garman-RadDam-2024.pdf",
+    title:
+      "Identifying and avoiding radiation damage in macromolecular crystallography",
+  },
+  {
+    link: "./extas/Macromolecular crystallography Primer.pdf",
+    title: "Macromolecular crystallography (article)",
   },
 ];

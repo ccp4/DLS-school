@@ -1,4 +1,8 @@
-import { materials, ccp4CloudTutorials } from "../code/materials";
+import {
+  materials,
+  ccp4CloudTutorials,
+  extra_materials,
+} from "../code/materials";
 
 export function CourseMaterials() {
   return (
@@ -33,6 +37,7 @@ export function CourseMaterials() {
       </section>
 
       <MaterialsList />
+      <ExtraMaterials />
     </main>
   );
 }
@@ -79,6 +84,41 @@ function MaterialsList() {
           </li>
         ))}
       </ul>
+    </section>
+  );
+}
+
+type ExtraMaterial = {
+  link: string;
+  title: string;
+  description?: string;
+};
+
+function ExtraMaterials() {
+  if (!extra_materials || extra_materials.length === 0) return null;
+
+  return (
+    <section className="mt-6">
+      <h2 className="mb-2 text-xl font-semibold">Other materials</h2>
+      <div className="grid gap-3">
+        {extra_materials.map((item: ExtraMaterial) => (
+          <div key={item.link}>
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sky-700 underline dark:text-sky-300"
+            >
+              {item.title}
+            </a>
+            {item.description && (
+              <span className="ml-2 text-gray-600 dark:text-gray-400">
+                – {item.description}
+              </span>
+            )}
+          </div>
+        ))}
+      </div>
     </section>
   );
 }
