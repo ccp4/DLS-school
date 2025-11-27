@@ -143,6 +143,24 @@ export const materials: {
     title: "Molecular replacement experiences",
     description: "Michail Isupov",
   },
+  {
+    id: 20,
+    link: "./slides/AnnaWarren_VMXm_CCP4Workshop2025.pdf",
+    title: "VMXm – getting the most from micron sized crystals",
+    description: "Anna Warren",
+  },
+  {
+    id: 21,
+    link: "./slides/20251126_XFEL-Hub_Pierre_Aller.pdf",
+    title: "XFEL-Hub & time-resolved serial crystallography",
+    description: "Pierre Aller",
+  },
+  {
+    id: 22,
+    link: "./slides/Privateer-carbohydrate-validation.pdf",
+    title: "Privateer",
+    description: "Lucy Schofield",
+  },
 ];
 
 export const extra_materials = [
@@ -158,5 +176,9 @@ export const extra_materials = [
   {
     link: "./extas/Macromolecular crystallography Primer.pdf",
     title: "Macromolecular crystallography (article)",
+  },
+  {
+    link: "https://dialpuri.github.io/CarbohydrateWorkshop/",
+    title: "Carbohydrate Workshop",
   },
 ];
