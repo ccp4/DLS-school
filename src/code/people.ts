@@ -15,16 +15,6 @@ export const airlie_mccoy: Person = {
   tags: ["CCP4", "Molecular Replacement", "SAD", "Phasing"],
   availability: ["Day 3", "Day 4", "Day 5"],
 };
-
-export const allen_orville: Person = {
-  name: "Allen Orville",
-  email: "allen.orville@diamond.ac.uk",
-  photo: "allen_orville.jpg",
-  homepage:
-    "https://www.diamond.ac.uk/Instruments/Mx/Research/Orville-Group/Orville.html",
-  tags: ["XFEL"],
-};
-
 export const amy_thompson: Person = {
   name: "Amy Thompson",
   photo: "amy_thompson.jpg",
@@ -439,7 +429,6 @@ export const chris_orr: Person = {
 
 export const people: Person[] = [
   airlie_mccoy,
-  allen_orville,
   amy_thompson,
   ana_gonzalez,
   andrew_quigley,

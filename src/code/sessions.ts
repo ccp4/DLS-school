@@ -17,7 +17,6 @@ type WorkshopLocation =
   | typeof wildwood;
 import {
   airlie_mccoy,
-  allen_orville,
   amy_thompson,
   ana_gonzalez,
   andrew_quigley,
@@ -481,7 +480,7 @@ const day3: Day = {
       type: "Lecture",
       time: "10:45",
       location: lecture_theatre,
-      speakers: [allen_orville],
+      speakers: [pierre_aller],
     },
     {
       title: "Break",
