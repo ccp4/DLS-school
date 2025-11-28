@@ -168,10 +168,17 @@ export const materials: {
     description: "Jordan Dialpuri",
   },
   {
-    id: 23,
+    id: 24,
     link: "./slides/ClemensVonrhein-GPhL_Refinement-with-BUSTER_DLS-CCP4-2025.pdf",
     title: "Refinement:The BUSTER perspective",
     description: "Clemens Vonrhein",
+  },
+  {
+    id: 25,
+    link: "./slides/2025-11-28_CCP4DLS.pdf",
+    title:
+      "Accelerating Drug Discovery With High-Throughput Crystallographic Fragment Screening and Structural Enablement",
+    description: "Blake Balcomb",
   },
 ];
 
@@ -192,5 +199,9 @@ export const extra_materials = [
   {
     link: "https://dialpuri.github.io/CarbohydrateWorkshop/",
     title: "Carbohydrate Workshop",
+  },
+  {
+    link: "https://github.com/wwPDB/protein-modification-extension/blob/main/Protein_modifications.md",
+    title: "Protein Modifications remediation",
   },
 ];
