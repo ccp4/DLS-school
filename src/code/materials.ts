@@ -204,6 +204,12 @@ export const materials: {
     title: "Automated Model Building and Density Modification in CCP4",
     description: "Paul Bond",
   },
+  {
+    id: 30,
+    link: "./slides/20251128_CCP4_DLS.pdf  ",
+    title: "How good is my model? Can I improve it?",
+    description: "Robbie P. Joosten",
+  },
 ];
 
 export const extra_materials = [
