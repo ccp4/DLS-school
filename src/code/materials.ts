@@ -167,6 +167,12 @@ export const materials: {
     title: "Nucleic Acids",
     description: "Jordan Dialpuri",
   },
+  {
+    id: 23,
+    link: "./slides/ClemensVonrhein-GPhL_Refinement-with-BUSTER_DLS-CCP4-2025.pdf",
+    title: "Refinement:The BUSTER perspective",
+    description: "Clemens Vonrhein",
+  },
 ];
 
 export const extra_materials = [
