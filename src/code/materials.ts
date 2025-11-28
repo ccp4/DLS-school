@@ -234,4 +234,8 @@ export const extra_materials = [
     link: "https://github.com/wwPDB/protein-modification-extension/blob/main/Protein_modifications.md",
     title: "Protein Modifications remediation",
   },
+  {
+    link: "https://www.diamond.ac.uk/Users/Experiment-at-Diamond/IT-User-Guide/Not-at-DLS/Retrieve-data.html",
+    title: "Retrieve data after your session at Diamond Light Source",
+  },
 ];
