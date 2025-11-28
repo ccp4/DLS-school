@@ -180,6 +180,30 @@ export const materials: {
       "Accelerating Drug Discovery With High-Throughput Crystallographic Fragment Screening and Structural Enablement",
     description: "Blake Balcomb",
   },
+  {
+    id: 26,
+    link: "./slides/MR_example1.pdf",
+    title: "Structure of TPR-rich domain of M. smegmatis EccA3mat",
+    description: "Ronan Keegan",
+  },
+  {
+    id: 27,
+    link: "./slides/MR_example2.pdf",
+    title: "1TEL Stucture Solution Example",
+    description: "Ronan Keegan",
+  },
+  {
+    id: 28,
+    link: "./slides/MR_example3.pdf",
+    title: "Complex, multiple copy molecular replacement example",
+    description: "Ronan Keegan",
+  },
+  {
+    id: 29,
+    link: "./slides/2025-11-25 DLS - Model Building and DM.pdf",
+    title: "Automated Model Building and Density Modification in CCP4",
+    description: "Paul Bond",
+  },
 ];
 
 export const extra_materials = [
