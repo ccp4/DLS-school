@@ -86,11 +86,11 @@ interface Day {
 }
 
 const zday1: Day = {
-  title: "Zoom Day 1 - Mon 3rd Nov",
+  title: "Zoom Day 1 - Mon 26th Oct",
   zoom: {
-    url: "https://diamondlight.zoom.us/j/94055217079?pwd=zc4TY1C9euw7C3wAoLoJITaaabhfHd.1",
-    meetingId: "940 5521 7079",
-    passcode: "122468",
+    url: "https://diamondlight.zoom.us/",
+    meetingId: "",
+    passcode: "",
   },
   sessions: [
     {
@@ -99,70 +99,16 @@ const zday1: Day = {
       time: "09:15",
     },
     {
-      title: "Roadmap for the workshop",
-      type: "Lecture",
-      time: "09:30",
-
-      speakers: [maria_fando, david_waterman],
-    },
-    {
-      title: "Students introduction (3 mins each)",
-      type: "Lecture",
-      time: "10:00",
-    },
-    {
-      title: "Break",
-      type: "Break",
-      time: "10:45",
-    },
-    {
-      title: "Students introduction (3 mins each)",
-      type: "Lecture",
-      time: "11:00",
-    },
-    {
-      title: "MX at Diamond and INSTRUCT-ERIC",
-      type: "Lecture",
-      time: "11:45",
-
-      speakers: [marco_mazzorana],
-    },
-    {
-      title: "Lunch",
-      type: "Meal",
-      time: "12:30",
-    },
-    {
-      title: "Cryocrystallography",
-      type: "Lecture",
-      time: "13:00",
-
-      speakers: [elspeth_garman],
-    },
-    {
-      title: "Navigating Diamond SynchWeb and test log in",
+      title: "Getting your samples safely to Diamond",
       type: "Practical",
-      time: "13:45",
-    },
-
-    {
-      title: "Break",
-      type: "Break",
-      time: "14:30",
-    },
-
-    {
-      title: "Introduction to CCP4",
-      type: "Lecture",
-      time: "14:45",
-
-      speakers: [charles_ballard],
+      time: "09:30",
+      //speakers: [marco_mazzorana],
     },
   ],
 };
 
 const zday2: Day = {
-  title: "Zoom Day 2 - Mon 10th Nov",
+  title: "Zoom Day 2 - Mon 9th Nov",
   sessions: [
     {
       title: "Informal housekeeping",
@@ -170,99 +116,45 @@ const zday2: Day = {
       time: "09:15",
     },
     {
-      title: "Bioinformatics for structural biologists",
+      title: "Roadmap for the workshop",
       type: "Lecture",
       time: "09:30",
+      speakers: [maria_fando, david_waterman],
+    },
+    {
+      title: "Navigating Diamond SynchWeb and test log in",
+      type: "Practical",
+      time: "10:00",
+      speakers: [marco_mazzorana],
+    },
+    {
+      title: "Break",
+      type: "Break",
+      time: "10:30",
+    },
+    {
+      title: "Bioinformatics for structural biologists",
+      type: "Lecture",
+      time: "10:45",
 
       speakers: [dan_rigden],
     },
     {
       title: "AlphaFold use for experimental structural biology",
       type: "Lecture",
-      time: "10:15",
+      time: "11:30",
       speakers: [oleg_kovalevskiy],
     },
     {
-      title: "Break",
-      type: "Break",
-      time: "11:00",
-    },
-    {
-      title: "Basic Diffraction Theory",
-      type: "Lecture",
-      time: "11:15",
-
-      speakers: [kamel_elomari],
-    },
-    {
-      title: "Data Collection Strategies for Photon Counting Detectors",
-      type: "Lecture",
-      time: "12:00",
-      speakers: [hans_gildenast],
-    },
-    {
       title: "Lunch",
       type: "Meal",
-      time: "12:45",
+      time: "12:15",
     },
     {
-      title: "Optimising the Diamond experience",
+      title: "Cryocrystallography",
       type: "Lecture",
-      time: "13:30",
-      speakers: [david_lawson],
-    },
-    {
-      title: "Twinning",
-      type: "Lecture",
-      time: "14:15",
-      speakers: [andrea_thorn],
-    },
-  ],
-};
-
-const zday3: Day = {
-  title: "Zoom Day 3 - Mon 17th Nov",
-  sessions: [
-    {
-      title: "Informal housekeeping",
-      type: "Other",
-      time: "09:15",
-    },
-    {
-      title: "Introduction to CCP4 Cloud",
-      type: "Practical",
-      time: "09:30",
-
-      speakers: [maria_fando],
-    },
-    {
-      title: "Data Processing (inc scaling)",
-      type: "Lecture",
-      time: "10:15",
-      speakers: [ana_gonzalez],
-    },
-
-    {
-      title: "Break",
-      type: "Break",
-      time: "11:00",
-    },
-    {
-      title: "Intro to space groups and symmetry",
-      type: "Lecture",
-      time: "11:15",
-      speakers: [andrey_lebedev],
-    },
-    {
-      title: "Dose driven data collection to optimise your experiments",
-      type: "Lecture",
-      time: "12:00",
-      speakers: [david_aragão],
-    },
-    {
-      title: "Lunch",
-      type: "Meal",
       time: "13:00",
+      speakers: [elspeth_garman],
     },
     {
       title: "Radiation Damage",
@@ -276,16 +168,15 @@ const zday3: Day = {
       time: "14:45",
     },
     {
-      title: "Follow up Fed ID problems and Q&A",
+      title: "Follow up Fed ID problems and CCP4 Cloud log ins",
       type: "Practical",
       time: "15:00",
-      speakers: [marco_mazzorana],
     },
   ],
 };
 
 const day1: Day = {
-  title: "Day 1 - Mon 24th Nov",
+  title: "Day 1 - Wed 25th Nov",
   sessions: [
     {
       title: "X35 bus from Wantage to Diamond",
@@ -300,15 +191,105 @@ const day1: Day = {
       location: diamond_house,
     },
     {
-      title: "Welcome to Diamond",
+      title: "Intro to MX at Diamond",
       type: "Lecture",
       time: "09:15",
       location: lecture_theatre,
     },
     {
+      title: "Introduction to CCP4",
+      type: "Lecture",
+      time: "09:45",
+      speakers: [eugene_krissinel],
+    },
+    {
+      title: "Basic Diffraction Theory",
+      type: "Lecture",
+      time: "10:15",
+      speakers: [kamel_elomari],
+    },
+    {
+      title: "Break",
+      type: "Break",
+      time: "11:15",
+    },
+    {
+      title: "Intro to space groups and symmetry",
+      type: "Lecture",
+      time: "11:30",
+      speakers: [andrey_lebedev],
+    },
+    {
+      title: "Lunch",
+      type: "Meal",
+      time: "12:15",
+    },
+    {
+      title: "Optimising the Diamond experience",
+      type: "Lecture",
+      time: "13:00",
+      speakers: [sandra_eltschkner],
+    },
+    {
+      title: "Introduction to CCP4 Cloud",
+      type: "Practical",
+      time: "13:45",
+      speakers: [maria_fando],
+    },
+    {
+      title: "Students introduction (3 min flash talk each)",
+      type: "Lecture",
+      time: "14:30",
+    },
+    {
+      title: "Break",
+      type: "Break",
+      time: "15:15",
+    },
+    {
+      title: "Students introduction (3 min flash talk each)",
+      type: "Lecture",
+      time: "15:30",
+    },
+    {
+      title: "Data Processing (inc scaling)",
+      type: "Lecture",
+      time: "16:15",
+      speakers: [david_waterman],
+    },
+    {
+      title: "Dose driven data collection to optimise your experiments",
+      type: "Lecture",
+      time: "17:15",
+      speakers: [david_aragão],
+    },
+    {
+      title: "Dinner",
+      type: "Meal",
+      time: "18:15",
+    },
+    {
+      title: "Coach back to Wantage",
+      type: "Other",
+      time: "20:15",
+      location: diamond_house,
+    },
+  ],
+};
+
+const day2: Day = {
+  title: "Day 2 - Thu 26th Nov",
+  sessions: [
+    {
+      title: "X35 bus from Wantage to Diamond",
+      type: "Other",
+      time: "08:32",
+      location: market,
+    },
+    {
       title: "XDS demo/tutorial",
       type: "Practical",
-      time: "09:30",
+      time: "09:15",
       location: lecture_theatre,
       speakers: [kay_diederichs],
     },
@@ -319,11 +300,10 @@ const day1: Day = {
       location: lecture_theatre,
     },
     {
-      title: "I24",
-      type: "Lecture",
-      time: "12:00",
-      location: lecture_theatre,
-      speakers: [danny_axford],
+      title: "Data collection and processing",
+      type: "Practical",
+      time: "10:45",
+      location: mx_village,
     },
     {
       title: "Lunch",
@@ -335,12 +315,6 @@ const day1: Day = {
       type: "Practical",
       time: "13:00",
       location: mx_village,
-    },
-    {
-      title: "DIALS demo/tutorial",
-      type: "Practical",
-      time: "13:00",
-      location: lecture_theatre,
     },
     {
       title: "Dinner",
@@ -362,8 +336,8 @@ const day1: Day = {
   ],
 };
 
-const day2: Day = {
-  title: "Day 2 - Tue 25th Nov",
+const day3: Day = {
+  title: "Day 3 - Fri 27th Nov",
   sessions: [
     {
       title: "X35 bus from Wantage to Diamond",
@@ -381,9 +355,16 @@ const day2: Day = {
     {
       title: "Multi-crystal approaches",
       type: "Lecture",
-      time: "10:15",
+      time: "10:00",
       location: lecture_theatre,
       speakers: [amy_thompson],
+    },
+    {
+      title: "I24",
+      type: "Lecture",
+      time: "10:45",
+      location: lecture_theatre,
+      speakers: [danny_axford],
     },
     {
       title: "Break",
@@ -391,11 +372,18 @@ const day2: Day = {
       time: "11:00",
     },
     {
-      title: "Pathologies and pseudosymmetry",
+      title: "Twinning",
       type: "Lecture",
       time: "11:15",
       location: lecture_theatre,
       speakers: [andrey_lebedev],
+    },
+    {
+      title: "VMXi",
+      type: "Lecture",
+      time: "12:00",
+      location: lecture_theatre,
+      speakers: [halina_mikolajek],
     },
     {
       title: "Lunch",
@@ -403,16 +391,9 @@ const day2: Day = {
       time: "12:15",
     },
     {
-      title: "VMXi",
-      type: "Lecture",
-      time: "13:00",
-      location: lecture_theatre,
-      speakers: [halina_mikolajek],
-    },
-    {
       title: "Work on your own data",
       type: "Practical",
-      time: "13:15",
+      time: "13:00",
       location: lecture_theatre,
     },
     {
@@ -452,28 +433,28 @@ const day2: Day = {
   ],
 };
 
-const day3: Day = {
-  title: "Day 3 - Wed 26th Nov",
+const day4: Day = {
+  title: "Day 4 - Sat 28th Nov",
   sessions: [
     {
-      title: "X35 bus from Wantage to Diamond",
+      title: "Coach to Diamond",
       type: "Other",
-      time: "08:32",
+      time: "08:45",
       location: market,
+    },
+    {
+      title: "Pathologies and pseudosymmetry",
+      type: "Lecture",
+      time: "09:15",
+      location: lecture_theatre,
+      speakers: [andrey_lebedev],
     },
     {
       title: "The phase problem",
       type: "Lecture",
-      time: "09:15",
-      location: lecture_theatre,
-      speakers: [ed_lowe],
-    },
-    {
-      title: "Anomalous diffraction in 2025",
-      type: "Lecture",
       time: "10:00",
       location: lecture_theatre,
-      speakers: [ramona_duman],
+      speakers: [ed_lowe],
     },
     {
       title: "XFEL Hub",
@@ -513,7 +494,7 @@ const day3: Day = {
       location: lecture_theatre,
       speakers: [lucrezia_catapano],
     },
-    {
+        {
       title: "New developments in model building and validation",
       type: "Lecture",
       time: "13:45",
@@ -557,8 +538,19 @@ const day3: Day = {
   ],
 };
 
-const day4: Day = {
-  title: "Day 4 - Thu 27th Nov",
+const day5: Day = {
+  title: "Day 5 - Sun 29th Nov",
+  sessions: [
+    {
+      title: "Free day",
+      type: "Other",
+      time: "08:45",
+    },
+  ],
+};
+
+const day6: Day = {
+  title: "Day 6 - Mon 30th Nov",
   sessions: [
     {
       title: "X35 bus from Wantage to Diamond",
@@ -573,7 +565,7 @@ const day4: Day = {
       location: lecture_theatre,
       speakers: [airlie_mccoy],
     },
-    {
+            {
       title: "MR Experiences",
       type: "Lecture",
       time: "10:15",
@@ -587,7 +579,7 @@ const day4: Day = {
     },
     {
       title: "MR with AlphaFold in CCP4 Cloud",
-      type: "Lecture",
+      type: "Practical",
       time: "11:15",
       location: lecture_theatre,
       speakers: [ronan_keegan],
@@ -612,11 +604,11 @@ const day4: Day = {
       speakers: [rob_nicholls],
     },
     {
-      title: "Validation quiz/tutorial",
-      type: "Practical",
+      title: "Refinement case studies",
+      type: "Lecture",
       time: "14:30",
       location: lecture_theatre,
-      speakers: [robbie_joosten],
+      speakers: [clemens_vonrhein],
     },
     {
       title: "Break",
@@ -624,16 +616,16 @@ const day4: Day = {
       time: "15:15",
     },
     {
-      title: "Carbohydrate & Nucleic acid crystallography",
-      type: "Lecture",
+      title: "Buster tutorial",
+      type: "Practical",
       time: "15:30",
       location: lecture_theatre,
-      speakers: [lucy_schofield, jordan_dialpuri],
+      speakers: [clemens_vonrhein],
     },
     {
       title: "Work on your own data",
       type: "Practical",
-      time: "16:30",
+      time: "16:15",
       location: lecture_theatre,
     },
     {
@@ -656,8 +648,8 @@ const day4: Day = {
   ],
 };
 
-const day5: Day = {
-  title: "Day 5 - Fri 28th Nov",
+const day7: Day = {
+  title: "Day 7 - Tue 1st Dec",
   sessions: [
     {
       title: "X35 bus from Wantage to Diamond",
@@ -666,18 +658,18 @@ const day5: Day = {
       location: market,
     },
     {
-      title: "Refinement case studies",
+      title: "Carbohydrate & Nucleic acid crystallography",
       type: "Lecture",
       time: "09:15",
       location: lecture_theatre,
-      speakers: [clemens_vonrhein],
+      speakers: [lucy_schofield, jordan_dialpuri],
     },
     {
-      title: "Buster tutorial",
+      title: "Validation quiz/tutorial",
       type: "Practical",
       time: "10:00",
       location: lecture_theatre,
-      speakers: [clemens_vonrhein],
+      speakers: [robbie_joosten],
     },
     {
       title: "XChem",
@@ -736,7 +728,7 @@ const day5: Day = {
       type: "Break",
       time: "15:15",
     },
-    {
+        {
       title: "Model validation, optimisation and deposition",
       type: "Lecture",
       time: "15:30",
@@ -757,7 +749,7 @@ const day5: Day = {
     {
       title: "Coach back to Wantage",
       type: "Other",
-      time: "18:25",
+      time: "18:30",
       location: diamond_house,
     },
     {
@@ -769,4 +761,4 @@ const day5: Day = {
   ],
 };
 
-export const days = [zday1, zday2, zday3, day1, day2, day3, day4, day5];
+export const days = [zday1, zday2, day1, day2, day3, day4, day5, day6, day7];

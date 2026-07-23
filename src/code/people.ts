@@ -13,7 +13,7 @@ export const airlie_mccoy: Person = {
   photo: "airlie_mccoy.png",
   homepage: "https://www.cimr.cam.ac.uk/staff/dr-airlie-mccoy",
   tags: ["CCP4", "Molecular Replacement", "SAD", "Phasing"],
-  availability: ["Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 3", "Day 4", "Day 5"],
 };
 export const amy_thompson: Person = {
   name: "Amy Thompson",
@@ -21,7 +21,7 @@ export const amy_thompson: Person = {
   email: "amy.thompson@diamond.ac.uk",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXi/Staff/Thompson.html",
   tags: ["Data Processing", "Synchrotrons"],
-  availability: ["Day 2"],
+  //availability: ["Day 2"],
 };
 
 export const ana_gonzalez: Person = {
@@ -38,7 +38,7 @@ export const andrew_quigley: Person = {
   photo: "andrew_quigley.jpg",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/MPL/Staff/Quigley.html",
   tags: ["Membrane Proteins"],
-  availability: ["Day 5"],
+  //availability: ["Day 5"],
 };
 
 export const andrea_thorn: Person = {
@@ -68,7 +68,7 @@ export const andrey_lebedev: Person = {
     "Validation",
     "Ligands",
   ],
-  availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
 };
 
 export const anna_warren: Person = {
@@ -77,7 +77,7 @@ export const anna_warren: Person = {
   photo: "anna_warren.JPG",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXm/Staff/Warren.html",
   tags: ["Data Collection", "Synchrotrons"],
-  availability: ["Day 3"],
+  //availability: ["Day 3"],
 };
 
 export const blake_balcomb: Person = {
@@ -93,7 +93,7 @@ export const clemens_vonrhein: Person = {
   email: "vonrhein@globalphasing.com",
   homepage: "undefined",
   tags: ["Data Processing", "Refinement"],
-  availability: ["Day 4", "Day 5"],
+  //availability: ["Day 4", "Day 5"],
 };
 
 export const dan_rigden: Person = {
@@ -142,7 +142,7 @@ export const david_waterman: Person = {
     "https://www.rc-harwell.ac.uk/who-we-are/researchers/david-waterman",
   tags: ["CCP4", "Data Processing", "Organiser"],
   photo: "david_waterman.jpg",
-  availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
 };
 
 export const ed_lowe: Person = {
@@ -196,7 +196,7 @@ export const grzegorz_chojnowski: Person = {
   homepage: "https://gchojnowski.github.io/",
   photo: "grzegorz_chojnowski.jpg",
   tags: ["Refinement", "Model Building", "Nucleic Acids", "Bioinformatics"],
-  availability: ["Day 2", "Day 3"],
+  //availability: ["Day 2", "Day 3"],
 };
 
 export const halina_mikolajek: Person = {
@@ -213,7 +213,7 @@ export const elisabet_jimenez: Person = {
   email: "ejmcri@ibmb.csic.es",
   homepage: "https://ibmb.csic.es/en/staff-member/elisabet-jimenez/",
   tags: ["Model Building", "Refinement", "Validation"],
-  availability: ["Day 5"],
+  //availability: ["Day 5"],
 };
 
 export const isabel_usón: Person = {
@@ -231,7 +231,7 @@ export const jordan_dialpuri: Person = {
   photo: "jordan_dialpuri.png",
   homepage: "https://jordandialpuri.co.uk/",
   tags: ["Model Building", "Nucleic Acids", "Sugars"],
-  availability: ["Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 3", "Day 4", "Day 5"],
 };
 
 export const judit_debreczeni: Person = {
@@ -239,7 +239,7 @@ export const judit_debreczeni: Person = {
   email: "Judit.Debreczeni@astrazeneca.com",
   homepage: "undefined",
   tags: ["Model Building", "COOT"],
-  availability: ["Day 3"],
+  //availability: ["Day 3"],
 };
 
 export const kamel_elomari: Person = {
@@ -256,7 +256,7 @@ export const kay_diederichs: Person = {
   photo: "kay_diederichs.png",
   homepage: "https://www.biologie.uni-konstanz.de/diederichs/",
   tags: ["Data Collection", "Phasing", "Radiation Damage"],
-  availability: ["Day 1", "Day 2", "Day 3"],
+  //availability: ["Day 1", "Day 2", "Day 3"],
 };
 
 export const lucrezia_catapano: Person = {
@@ -265,7 +265,7 @@ export const lucrezia_catapano: Person = {
   photo: "lucrezia_catapano.jpg",
   homepage: "https://bioinfotraining.bio.cam.ac.uk/staff/lucrezia-catapano-phd",
   tags: ["Refinement", "Model Building", "Moorhen", "COOT"],
-  availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
 };
 
 export const lucy_schofield: Person = {
@@ -274,7 +274,7 @@ export const lucy_schofield: Person = {
   photo: "lucy_schofield.jpg",
   tags: ["CCP4", "Sugars"],
   homepage: undefined,
-  availability: ["Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 3", "Day 4", "Day 5"],
 };
 
 export const marco_mazzorana: Person = {
@@ -283,7 +283,7 @@ export const marco_mazzorana: Person = {
   email: "marco.mazzorana@diamond.ac.uk",
   photo: "marco_mazzorana.jpg",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/I04/Staff/Mazzorana.html",
-  availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
 };
 
 export const maria_fando: Person = {
@@ -300,7 +300,7 @@ export const maria_fando: Person = {
     "Ligands",
   ],
   homepage: "https://www.rc-harwell.ac.uk/who-we-are/researchers/maria-fando",
-  availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
 };
 
 export const michail_isupov: Person = {
@@ -308,7 +308,7 @@ export const michail_isupov: Person = {
   email: "M.Isupov@exeter.ac.uk",
   homepage: "https://experts.exeter.ac.uk/1862-michail-isupov",
   tags: ["Molecular Replacement"],
-  availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
 };
 
 export const oleg_kovalevskiy: Person = {
@@ -325,7 +325,7 @@ export const paul_bond: Person = {
   photo: "paul_bond.jpg",
   tags: ["CCP4", "CCP4I2", "Model Building", "COOT"],
   homepage: "https://paulsbond.co.uk",
-  availability: ["Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 3", "Day 4", "Day 5"],
 };
 
 export const pierre_aller: Person = {
@@ -358,7 +358,7 @@ export const robbie_joosten: Person = {
     "COOT",
   ],
   photo: "robbie_joosten.jpg",
-  availability: ["Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 3", "Day 4", "Day 5"],
 };
 
 export const rob_nicholls: Person = {
@@ -366,7 +366,7 @@ export const rob_nicholls: Person = {
   photo: "rob_nicholls.png",
   tags: ["CCP4", "Model Building", "Refinement", "Ligands", "Validation"],
   homepage: "https://www.ccpem.ac.uk/people/rob-nicholls/",
-  availability: ["Day 4", "Day 5"],
+  //availability: ["Day 4", "Day 5"],
 };
 
 export const ronan_keegan: Person = {
@@ -389,7 +389,7 @@ export const sandra_eltschkner: Person = {
   homepage: "https://www.jic.ac.uk/people/sandra-eltschkner/",
   tags: ["Data Collection", "Ligands", "Model Building"],
   photo: "sandra_eltschkner.jpg",
-  availability: ["Day 1", "Day 2", "Day 3"],
+  //availability: ["Day 1", "Day 2", "Day 3"],
 };
 
 export const stuart_mcnicholas: Person = {
@@ -399,7 +399,7 @@ export const stuart_mcnicholas: Person = {
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/smcnicholas/",
   tags: ["CCP4", "CCP4I2", "Moorhen"],
-  availability: ["Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 3", "Day 4", "Day 5"],
 };
 export const hans_gildenast: Person = {
   name: "Hans Gildenast",
@@ -424,15 +424,15 @@ export const chris_orr: Person = {
     "Ions/Metals",
     "Laser shaping",
   ],
-  availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
+  //availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
 };
 
 export const people: Person[] = [
   airlie_mccoy,
   amy_thompson,
-  ana_gonzalez,
+  //ana_gonzalez,
   andrew_quigley,
-  andrea_thorn,
+  //andrea_thorn,
   andrey_lebedev,
   anna_warren,
   // blake_balcomb,
@@ -441,7 +441,7 @@ export const people: Person[] = [
   danny_axford,
   // daren_fearon,
   david_aragão,
-  david_lawson,
+  //david_lawson,
   david_waterman,
   ed_lowe,
   elspeth_garman,
@@ -471,6 +471,6 @@ export const people: Person[] = [
   ronan_keegan,
   sandra_eltschkner,
   stuart_mcnicholas,
-  hans_gildenast,
+  //hans_gildenast,
   chris_orr,
 ];

@@ -5,11 +5,11 @@ export function Home() {
     <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-32 text-gray-900 sm:pb-24 dark:bg-gray-900 dark:text-gray-100">
       <div className="text-gray-900 dark:bg-gray-900 dark:text-gray-100">
         <h1 className="mb-1 text-center text-3xl font-bold">
-          Diamond-CCP4 Data Collection and Structure Solution Workshop 2025
+          Diamond-CCP4 Data Collection and Structure Solution Workshop 2026
         </h1>
         <p className="text-center text-lg">
-          Zoom days: 3rd, 10th and 17th November. On site days: 24th - 28th
-          November
+          Zoom days: 26th October and 9th November. On site days: 24th November - 1st
+          December
         </p>
       </div>
       <img
@@ -19,7 +19,7 @@ export function Home() {
       />
       <p>
         <b>
-          We are very pleased to announce the 12th joint Diamond-CCP4 MX
+          We are very pleased to announce the 13th joint Diamond-CCP4 MX
           workshop for graduate students, postdocs and early career scientists.
         </b>
       </p>
@@ -44,8 +44,8 @@ export function Home() {
         </li>
       </List>
       <p>
-        The workshop will begin with three days of lectures delivered remotely
-        by Zoom. Following that, further lectures, tutorials, data collection
+        The workshop will begin with an orientation day and an initial lectures
+        day both delivered remotely by Zoom. Following that, further lectures, tutorials, data collection
         and subsequent analysis will be done in person at Diamond Light Source,
         on the Harwell Oxford campus in Oxfordshire, UK.
       </p>

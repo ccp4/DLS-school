@@ -18,8 +18,8 @@ function colourForType(
 }
 
 export function Programme() {
-  const zoomDays = days.slice(0, 3);
-  const otherDays = days.slice(3);
+  const zoomDays = days.slice(0, 2);
+  const otherDays = days.slice(2);
 
   const renderDays = (daysToRender: typeof days) => (
     <div className="flex flex-wrap justify-center gap-4 p-4">

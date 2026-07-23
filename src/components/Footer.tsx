@@ -10,7 +10,6 @@ export function Footer() {
       <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
         <Logo sponsor={ukristfc} />
         <Logo sponsor={iucr} />
-        <Logo sponsor={dectris} />
       </div>
     </footer>
   );
