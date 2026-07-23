@@ -601,7 +601,7 @@ const day6: Day = {
       type: "Lecture",
       time: "13:45",
       location: lecture_theatre,
-      speakers: [rob_nicholls],
+      speakers: [alex_konstantinov],
     },
     {
       title: "Refinement case studies",
