@@ -15,6 +15,15 @@ export const airlie_mccoy: Person = {
   tags: ["CCP4", "Molecular Replacement", "SAD", "Phasing"],
   //availability: ["Day 3", "Day 4", "Day 5"],
 };
+
+export const alex_konstantinov: Person = {
+  name: "Alex Konstantinov",
+  email: "alex.konstantinov@stfc.ac.uk",
+  photo: "alex_konstantinov.jpg",
+  tags: ["Refinement"],
+  //availability: ["Day 2"],
+};
+
 export const amy_thompson: Person = {
   name: "Amy Thompson",
   photo: "amy_thompson.jpg",
@@ -311,6 +320,14 @@ export const michail_isupov: Person = {
   //availability: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
 };
 
+export const milan_kumar: Person = {
+  name: "Milan Kumar",
+  email: "milan.kumar@stfc.ac.uk",
+  photo: "milan_kumar.jpg",
+  tags: ["Refinement"],
+  //availability: ["Day 2"],
+};
+
 export const oleg_kovalevskiy: Person = {
   name: "Oleg Kovalevskiy",
   email: "okovalevskiy@deepmind.com",
@@ -429,6 +446,7 @@ export const chris_orr: Person = {
 
 export const people: Person[] = [
   airlie_mccoy,
+  alex_konstantinov,
   amy_thompson,
   //ana_gonzalez,
   andrew_quigley,
@@ -462,6 +480,7 @@ export const people: Person[] = [
   marco_mazzorana,
   maria_fando,
   michail_isupov,
+  milan_kumar,
   oleg_kovalevskiy,
   paul_bond,
   pierre_aller,
