@@ -17,6 +17,7 @@ type WorkshopLocation =
   | typeof wildwood;
 import {
   airlie_mccoy,
+  alex_konstantinov,
   amy_thompson,
   ana_gonzalez,
   andrew_quigley,
