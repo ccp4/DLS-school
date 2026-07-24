@@ -158,17 +158,6 @@ const zday2: Day = {
       speakers: [elspeth_garman],
     },
     {
-      title: "Radiation Damage",
-      type: "Lecture",
-      time: "13:45",
-      speakers: [elspeth_garman],
-    },
-    {
-      title: "Break",
-      type: "Break",
-      time: "14:45",
-    },
-    {
       title: "Follow up Fed ID problems and CCP4 Cloud log ins",
       type: "Practical",
       time: "15:00",
@@ -259,15 +248,21 @@ const day1: Day = {
       speakers: [david_waterman],
     },
     {
-      title: "Dose driven data collection to optimise your experiments",
+      title: "Radiation Damage",
       type: "Lecture",
       time: "17:15",
-      speakers: [david_aragão],
+      speakers: [elspeth_garman],
     },
     {
       title: "Dinner",
       type: "Meal",
       time: "18:15",
+    },
+    {
+      title: "Dose driven data collection to optimise your experiments",
+      type: "Lecture",
+      time: "19:15",
+      speakers: [david_aragão],
     },
     {
       title: "Coach back to Wantage",
