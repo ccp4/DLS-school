@@ -13,7 +13,7 @@ export function Apply() {
   return (
     <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-32 text-gray-900 sm:pb-24 dark:bg-gray-900 dark:text-gray-100">
       <Heading text="Application process" />
-      <p>The application system is not yet open. Please check back later</p>
+      <p>The application system is not yet open. Please check back later.</p>
 
       <p>
         <b>

@@ -16,6 +16,13 @@ export const airlie_mccoy: Person = {
   //availability: ["Day 3", "Day 4", "Day 5"],
 };
 
+export const adam_crawshaw: Person = {
+  name: "Adam Crawshaw",
+  email: "adam.crawshaw@diamond.ac.uk",
+  tags: ["Data Collection", "Data Processing", "Synchrotrons"],
+  //availability: ["Day 2"],
+};
+
 export const alex_konstantinov: Person = {
   name: "Alex Konstantinov",
   email: "alex.konstantinov@stfc.ac.uk",
@@ -445,6 +452,7 @@ export const chris_orr: Person = {
 };
 
 export const people: Person[] = [
+  adam_crawshaw,
   airlie_mccoy,
   alex_konstantinov,
   amy_thompson,

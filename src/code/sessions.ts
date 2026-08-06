@@ -17,6 +17,7 @@ type WorkshopLocation =
   | typeof wildwood;
 import {
   airlie_mccoy,
+  adam_crawshaw,
   alex_konstantinov,
   amy_thompson,
   ana_gonzalez,
@@ -100,10 +101,16 @@ const zday1: Day = {
       time: "09:15",
     },
     {
+      title: "Diamond beamline training in 2027",
+      type: "Lecture",
+      time: "09:30",
+      speakers: [adam_crawshaw],
+    },
+    {
       title: "Getting your samples safely to Diamond",
       type: "Practical",
-      time: "09:30",
-      //speakers: [marco_mazzorana],
+      time: "10:00",
+      speakers: [marco_mazzorana],
     },
   ],
 };
