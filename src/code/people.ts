@@ -19,6 +19,7 @@ export const airlie_mccoy: Person = {
 export const adam_crawshaw: Person = {
   name: "Adam Crawshaw",
   email: "adam.crawshaw@diamond.ac.uk",
+  photo: "adam_crawshaw.jpg",
   tags: ["Data Collection", "Data Processing", "Synchrotrons"],
   //availability: ["Day 2"],
 };
