@@ -236,7 +236,7 @@ export const elisabet_jimenez: Person = {
 export const isabel_usón: Person = {
   name: "Isabel Usón",
   email: "iufcri@ibmb.csic.es",
-  photo: "isabel_usón.jpg",
+  photo: "isabel_uson.jpg",
   homepage:
     "https://www.icrea.cat/community/icreas/17430/isabel-uson-finkenzeller/",
   tags: ["Model Building", "Refinement", "Validation"],
