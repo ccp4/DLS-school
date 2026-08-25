@@ -1,19 +1,12 @@
 import { Heading, Link, List } from "../components/Elements";
 
-//      <p>
-//        Please click{" "}
-//        <Link
-//          href="https://www.diamond.ac.uk/Home/Events/"
-//          text="here"
-//        />{" "}
-//        to apply online at the Diamond Events page.
-//      </p>
-
 export function Apply() {
   return (
     <main className="m-auto flex min-h-screen max-w-7xl flex-col gap-4 bg-white pb-32 text-gray-900 sm:pb-24 dark:bg-gray-900 dark:text-gray-100">
       <Heading text="Application process" />
-      <p>The application system is not yet open. Please check back later.</p>
+      <p>
+        Please click <Link href="https://www.diamond.ac.uk/Home/Events/2026/Diamond-CCP4-Data-Collection-and-Structure-Solution-Workshop.html" text="here" /> to apply online at the Diamond Events page.
+      </p>
 
       <p>
         <b>
