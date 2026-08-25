@@ -27,7 +27,7 @@ export function Apply() {
           before the event begins. Neither Diamond nor STFC will be liable if a
           visa application is denied, a visa is received too late to attend, or
           if a delegate is not able to travel to the Diamond-CCP4 Data
-          Collection and Structure Solution Workshop 2025.
+          Collection and Structure Solution Workshop 2026.
         </b>
       </p>
     </main>
