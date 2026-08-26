@@ -19,7 +19,7 @@ export function Apply() {
         <b>
           Participants are responsible for making their own travel arrangements
           and ensuring that they are able to attend the Diamond-CCP4 Data
-          Collection and Structure Solution Workshop 2025. It is recommended
+          Collection and Structure Solution Workshop 2026. It is recommended
           that you check any visa requirements with your local embassy or
           consulate for visa entry to the UK. Participants should inform
           themselves of the entry requirements (i.e. visa requirements) of the
