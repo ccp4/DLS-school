@@ -375,11 +375,11 @@ const day3: Day = {
       time: "11:00",
     },
     {
-      title: "Twinning",
+      title: "DECTRIS Cloud",
       type: "Lecture",
       time: "11:15",
       location: lecture_theatre,
-      speakers: [andrey_lebedev],
+      speakers: [],
     },
     {
       title: "VMXi",
@@ -446,7 +446,7 @@ const day4: Day = {
       location: market,
     },
     {
-      title: "Pathologies and pseudosymmetry",
+      title: "Twinning and other pathologies",
       type: "Lecture",
       time: "09:15",
       location: lecture_theatre,
