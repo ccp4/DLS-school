@@ -375,7 +375,7 @@ const day3: Day = {
       time: "11:00",
     },
     {
-      title: "DECTRIS Cloud",
+      title: "DECTRIS D.LAB",
       type: "Lecture",
       time: "11:15",
       location: lecture_theatre,
