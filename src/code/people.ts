@@ -10,7 +10,7 @@ export interface Person {
 export const airlie_mccoy: Person = {
   name: "Airlie McCoy",
   email: "ajm201@cam.ac.uk",
-  photo: "airlie_mccoy.png",
+  photo: "airlie_mccoy.jpg",
   homepage: "https://www.cimr.cam.ac.uk/staff/dr-airlie-mccoy",
   tags: ["CCP4", "Molecular Replacement", "SAD", "Phasing"],
   //availability: ["Day 3", "Day 4", "Day 5"],
@@ -44,7 +44,7 @@ export const amy_thompson: Person = {
 export const ana_gonzalez: Person = {
   name: "Ana Gonzalez",
   email: "ana.gonzalez@maxiv.lu.se",
-  photo: "ana_gonzalez.JPG",
+  photo: "ana_gonzalez.jpg",
   homepage: "https://www.maxiv.lu.se/beamlines-accelerators/beamlines/biomax/",
   tags: ["Data Collection", "Data Processing", "Synchrotrons"],
 };
@@ -61,7 +61,7 @@ export const andrew_quigley: Person = {
 export const andrea_thorn: Person = {
   name: "Andrea Thorn",
   email: "andrea.thorn@uni-hamburg.de",
-  photo: "andrea_thorn.jpeg",
+  photo: "andrea_thorn.jpg",
   homepage: "https://thorn-lab.com/team-member/andrea-thorn/",
   tags: ["Pathologies", "SAD"],
 };
@@ -91,7 +91,7 @@ export const andrey_lebedev: Person = {
 export const anna_warren: Person = {
   name: "Anna Warren",
   email: "anna.warren@diamond.ac.uk",
-  photo: "anna_warren.JPG",
+  photo: "anna_warren.jpg",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/VMXm/Staff/Warren.html",
   tags: ["Data Collection", "Synchrotrons"],
   //availability: ["Day 3"],
@@ -125,7 +125,7 @@ export const clemens_vonrhein: Person = {
 export const dan_rigden: Person = {
   name: "Dan Rigden",
   email: "drigden@liverpool.ac.uk",
-  photo: "dan_rigden.webp",
+  photo: "dan_rigden.jpg",
   homepage: "https://www.liverpool.ac.uk/people/daniel-rigden",
   tags: ["Bioinformatics"],
 };
@@ -156,7 +156,7 @@ export const david_aragão: Person = {
 export const david_lawson: Person = {
   name: "David Lawson",
   email: "david.lawson@jic.ac.uk",
-  photo: "david_lawson.png",
+  photo: "david_lawson.jpg",
   homepage: "https://www.jic.ac.uk/people/david-lawson/",
   tags: ["Data Collection", "Data Processing"],
 };
@@ -254,7 +254,7 @@ export const isabel_usón: Person = {
 export const jordan_dialpuri: Person = {
   name: "Jordan Dialpuri",
   email: "jsd523@york.ac.uk",
-  photo: "jordan_dialpuri.png",
+  photo: "jordan_dialpuri.jpg",
   homepage: "https://jordandialpuri.co.uk/",
   tags: ["Model Building", "Nucleic Acids", "Sugars"],
   //availability: ["Day 3", "Day 4", "Day 5"],
@@ -271,7 +271,7 @@ export const judit_debreczeni: Person = {
 export const kamel_elomari: Person = {
   name: "Kamel El Omari",
   email: "kamel.el-omari@diamond.ac.uk",
-  photo: "kamel_elomari.webp",
+  photo: "kamel_elomari.jpg",
   homepage: "https://www.diamond.ac.uk/Instruments/Mx/I23/Staff/El-Omari.html",
   tags: ["Data Collection", "Data Processing", "Phasing", "Ions/Metals"],
 };
@@ -279,7 +279,7 @@ export const kamel_elomari: Person = {
 export const kay_diederichs: Person = {
   name: "Kay Diederichs",
   email: "kay.diederichs@uni-konstanz.de",
-  photo: "kay_diederichs.png",
+  photo: "kay_diederichs.jpg",
   homepage: "https://www.biologie.uni-konstanz.de/diederichs/",
   tags: ["Data Collection", "Phasing", "Radiation Damage"],
   //availability: ["Day 1", "Day 2", "Day 3"],
@@ -315,7 +315,7 @@ export const marco_mazzorana: Person = {
 export const maria_fando: Person = {
   name: "Maria Fando",
   email: "maria.fando@stfc.ac.uk",
-  photo: "maria_fando.png",
+  photo: "maria_fando.jpg",
   tags: [
     "CCP4",
     "Cloud",
@@ -397,7 +397,7 @@ export const robbie_joosten: Person = {
 
 export const rob_nicholls: Person = {
   name: "Rob Nicholls",
-  photo: "rob_nicholls.png",
+  photo: "rob_nicholls.jpg",
   tags: ["CCP4", "Model Building", "Refinement", "Ligands", "Validation"],
   homepage: "https://www.ccpem.ac.uk/people/rob-nicholls/",
   //availability: ["Day 4", "Day 5"],
@@ -429,7 +429,7 @@ export const sandra_eltschkner: Person = {
 export const stuart_mcnicholas: Person = {
   name: "Stuart McNicholas",
   email: "stuart.mcnicholas@york.ac.uk",
-  photo: "stuart_mcnicholas.png",
+  photo: "stuart_mcnicholas.jpg",
   homepage:
     "https://www.york.ac.uk/chemistry/research/ysbl/people/staff/smcnicholas/",
   tags: ["CCP4", "CCP4I2", "Moorhen"],
