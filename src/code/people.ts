@@ -105,6 +105,15 @@ export const blake_balcomb: Person = {
   tags: ["Data Collection", "Synchrotrons", "Ligands"],
 };
 
+export const camilla_larsen: Person = {
+  name: "Camilla Buhl Larsen",
+  email: "camilla.larsen@dectris.com",
+  homepage: "https://dlab.dectris.com/author/camilla-larsen",
+  tags: ["Data Processing", "Cloud"],
+  //availability: ["Day 4", "Day 5"],
+};
+
+
 export const clemens_vonrhein: Person = {
   name: "Clemens Vonrhein",
   email: "vonrhein@globalphasing.com",
