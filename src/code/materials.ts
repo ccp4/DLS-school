@@ -214,16 +214,16 @@ export const materials: {
 
 export const extra_materials = [
   //{
-  //  link: "./extas/Cheat_sheet-XDSwiki.pdf",
+  //  link: "./extras/Cheat_sheet-XDSwiki.pdf",
   //  title: "XDS cheat sheet",
   //},
   //{
-  //  link: "./extas/Acta-D-Shelley-Garman-RadDam-2024.pdf",
+  //  link: "./extras/Acta-D-Shelley-Garman-RadDam-2024.pdf",
   //  title:
   //    "Identifying and avoiding radiation damage in macromolecular crystallography",
   //},
   //{
-  //  link: "./extas/Macromolecular crystallography Primer.pdf",
+  //  link: "./extras/Macromolecular crystallography Primer.pdf",
   //  title: "Macromolecular crystallography (article)",
   //},
   //{
