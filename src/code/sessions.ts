@@ -40,6 +40,7 @@ import {
   graeme_winter,
   grzegorz_chojnowski,
   halina_mikolajek,
+  hans_gildenast,
   elisabet_jimenez,
   isabel_usón,
   jordan_dialpuri,
@@ -163,6 +164,12 @@ const zday2: Day = {
       type: "Lecture",
       time: "13:00",
       speakers: [elspeth_garman],
+    },
+    {
+      title: "Fast and curious - Hybrid Pixel detectors for Structural Biology",
+      type: "Lecture",
+      time: "14:00",
+      speakers: [hans_gildenast],
     },
     {
       title: "Follow up Fed ID problems and CCP4 Cloud log ins",

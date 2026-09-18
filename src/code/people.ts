@@ -487,6 +487,7 @@ export const people: Person[] = [
   // graeme_winter,
   grzegorz_chojnowski,
   halina_mikolajek,
+  hans_gildenast,
   elisabet_jimenez,
   isabel_usón,
   jordan_dialpuri,
