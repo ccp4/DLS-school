@@ -108,6 +108,7 @@ export const blake_balcomb: Person = {
 export const camilla_larsen: Person = {
   name: "Camilla Buhl Larsen",
   email: "camilla.larsen@dectris.com",
+  photo: "camilla_larsen.jpg",
   homepage: "https://dlab.dectris.com/author/camilla-larsen",
   tags: ["Data Processing", "Cloud"],
   //availability: ["Day 4", "Day 5"],
@@ -472,6 +473,7 @@ export const people: Person[] = [
   andrey_lebedev,
   anna_warren,
   // blake_balcomb,
+  camilla_larsen,
   clemens_vonrhein,
   dan_rigden,
   danny_axford,
