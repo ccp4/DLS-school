@@ -195,6 +195,7 @@ const day1: Day = {
       type: "Lecture",
       time: "09:15",
       location: lecture_theatre,
+      speakers: [marco_mazzorana],
     },
     {
       title: "Introduction to CCP4",
