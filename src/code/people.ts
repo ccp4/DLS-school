@@ -49,6 +49,12 @@ export const ana_gonzalez: Person = {
   tags: ["Data Collection", "Data Processing", "Synchrotrons"],
 };
 
+export const anastasya_shilova: Person = {
+  name: "Anastasya Shilova",
+  email: "Anastasya.Shilova@bruker.com",
+  tags: [],
+};
+
 export const andrew_quigley: Person = {
   name: "Andrew Quigley",
   email: "andrew.quigley@diamond.ac.uk",
@@ -467,6 +473,7 @@ export const people: Person[] = [
   airlie_mccoy,
   alex_konstantinov,
   amy_thompson,
+  anastasya_shilova,
   //ana_gonzalez,
   andrew_quigley,
   //andrea_thorn,

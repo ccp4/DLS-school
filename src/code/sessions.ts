@@ -21,11 +21,13 @@ import {
   alex_konstantinov,
   amy_thompson,
   ana_gonzalez,
+  anastasya_shilova,
   andrew_quigley,
   andrea_thorn,
   andrey_lebedev,
   anna_warren,
   blake_balcomb,
+  camilla_larsen,
   clemens_vonrhein,
   dan_rigden,
   danny_axford,
@@ -166,15 +168,9 @@ const zday2: Day = {
       speakers: [elspeth_garman],
     },
     {
-      title: "Fast and curious - Hybrid Pixel detectors for Structural Biology",
-      type: "Lecture",
-      time: "14:00",
-      speakers: [hans_gildenast],
-    },
-    {
       title: "Follow up Fed ID problems and CCP4 Cloud log ins",
       type: "Practical",
-      time: "15:00",
+      time: "14:00",
     },
   ],
 };
@@ -218,10 +214,10 @@ const day1: Day = {
       time: "11:15",
     },
     {
-      title: "Intro to space groups and symmetry",
+      title: "Fast and curious - Hybrid Pixel detectors for Structural Biology",
       type: "Lecture",
       time: "11:30",
-      speakers: [andrey_lebedev],
+      speakers: [hans_gildenast],
     },
     {
       title: "Lunch",
@@ -386,7 +382,7 @@ const day3: Day = {
       type: "Lecture",
       time: "11:15",
       location: lecture_theatre,
-      speakers: [],
+      speakers: [camilla_larsen],
     },
     {
       title: "VMXi",
@@ -401,9 +397,15 @@ const day3: Day = {
       time: "12:15",
     },
     {
+      title: "Intro to space groups and symmetry",
+      type: "Lecture",
+      time: "13:00",
+      speakers: [andrey_lebedev],
+    },
+    {
       title: "Work on your own data",
       type: "Practical",
-      time: "13:00",
+      time: "13:45",
       location: lecture_theatre,
     },
     {
@@ -467,11 +469,11 @@ const day4: Day = {
       speakers: [ed_lowe],
     },
     {
-      title: "XFEL Hub",
+      title: "I23",
       type: "Lecture",
       time: "10:45",
       location: lecture_theatre,
-      speakers: [pierre_aller],
+      speakers: [kamel_elomari],
     },
     {
       title: "Break",
@@ -600,42 +602,49 @@ const day6: Day = {
       time: "12:15",
     },
     {
-      title: "Model building and DM",
+      title: "Bridging the Gap Between Crystal Growth and Synchrotron Access",
       type: "Lecture",
       time: "13:00",
+      location: lecture_theatre,
+      speakers: [anastasya_shilova],
+    },
+    {
+      title: "Model building and DM",
+      type: "Lecture",
+      time: "13:15",
       location: lecture_theatre,
       speakers: [paul_bond],
     },
     {
       title: "Refinement",
       type: "Lecture",
-      time: "13:45",
+      time: "14:00",
       location: lecture_theatre,
       speakers: [alex_konstantinov],
     },
     {
       title: "Refinement case studies",
       type: "Lecture",
-      time: "14:30",
+      time: "14:45",
       location: lecture_theatre,
       speakers: [clemens_vonrhein],
     },
     {
       title: "Break",
       type: "Break",
-      time: "15:15",
+      time: "15:30",
     },
     {
       title: "Buster tutorial",
       type: "Practical",
-      time: "15:30",
+      time: "15:45",
       location: lecture_theatre,
       speakers: [clemens_vonrhein],
     },
     {
       title: "Work on your own data",
       type: "Practical",
-      time: "16:15",
+      time: "16:30",
       location: lecture_theatre,
     },
     {
@@ -746,7 +755,7 @@ const day7: Day = {
       speakers: [robbie_joosten],
     },
     {
-      title: "Poster prize winner",
+      title: "Poster prize announcement",
       type: "Other",
       time: "16:15",
     },
@@ -759,7 +768,7 @@ const day7: Day = {
     {
       title: "Coach back to Wantage",
       type: "Other",
-      time: "18:30",
+      time: "18:15",
       location: diamond_house,
     },
     {
