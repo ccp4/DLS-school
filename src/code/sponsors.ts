@@ -74,3 +74,9 @@ export const dectris: Sponsor = {
   url: "https://www.dectris.com/",
   logo: "DECTRIS.svg",
 };
+
+export const bruker: Sponsor = {
+  name: "Bruker",
+  url: "https://www.bruker.com/en.html",
+  logo: "bruker.png",
+};

@@ -52,7 +52,8 @@ export const ana_gonzalez: Person = {
 export const anastasya_shilova: Person = {
   name: "Anastasya Shilova",
   email: "Anastasya.Shilova@bruker.com",
-  tags: [],
+  photo: "anastasya_shilova.jpg",
+  tags: ["Data Collection", "Data Processing", "Phasing"],
 };
 
 export const andrew_quigley: Person = {
