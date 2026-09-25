@@ -43,7 +43,6 @@ import {
   grzegorz_chojnowski,
   halina_mikolajek,
   hans_gildenast,
-  elisabet_jimenez,
   isabel_usón,
   jordan_dialpuri,
   judit_debreczeni,
@@ -741,7 +740,7 @@ const day7: Day = {
       type: "Lecture",
       time: "14:30",
       location: lecture_theatre,
-      speakers: [isabel_usón, elisabet_jimenez],
+      speakers: [isabel_usón],
     },
     {
       title: "Break",
