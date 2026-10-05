@@ -481,11 +481,11 @@ const day4: Day = {
       time: "11:00",
     },
     {
-      title: "MX from an Industrial Perspective",
+      title: "Verification",
       type: "Lecture",
       time: "11:15",
       location: lecture_theatre,
-      speakers: [judit_debreczeni],
+      speakers: [isabel_usón],
     },
     {
       title: "VMXm",
@@ -736,11 +736,11 @@ const day7: Day = {
       speakers: [stuart_mcnicholas],
     },
     {
-      title: "Verification",
+      title: "MX from an Industrial Perspective",
       type: "Lecture",
       time: "14:30",
       location: lecture_theatre,
-      speakers: [isabel_usón],
+      speakers: [judit_debreczeni],
     },
     {
       title: "Break",
