@@ -72,7 +72,7 @@ export const york: Sponsor = {
 export const dectris: Sponsor = {
   name: "DECTRIS",
   url: "https://www.dectris.com/",
-  logo: "DECTRIS.svg",
+  logo: "dectris.png",
 };
 
 export const bruker: Sponsor = {
