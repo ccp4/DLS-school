@@ -283,10 +283,17 @@ const day2: Day = {
       location: market,
     },
     {
-      title: "Data collection session 1",
+      title: "Logistics and preparation",
       type: "Practical",
       time: "10:00",
       location: mx_village,
+      speakers: [marco_mazzorana],
+    },
+    {
+      title: "Data collection session 1",
+      type: "Practical",
+      time: "10:00",
+      location: lecture_theatre,
     },
     {
       title: "XDS demo/tutorial",
