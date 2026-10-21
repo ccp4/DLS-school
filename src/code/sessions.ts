@@ -284,8 +284,8 @@ const day2: Day = {
     },
     {
       title: "Logistics and preparation",
-      type: "Practical",
-      time: "10:00",
+      type: "Lecture",
+      time: "09:45",
       location: mx_village,
       speakers: [marco_mazzorana],
     },
