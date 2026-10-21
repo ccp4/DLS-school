@@ -1,4 +1,4 @@
-import { Heading, Link, List } from "../components/Elements";
+import { Heading, Link } from "../components/Elements";
 
 export function Apply() {
   return (

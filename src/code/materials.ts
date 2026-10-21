@@ -2,8 +2,6 @@
  * Workshop materials
  */
 
-import { Link } from "../components/Elements";
-
 export const ccp4CloudTutorials = [
   {
     link: "https://cloud.ccp4.ac.uk/",

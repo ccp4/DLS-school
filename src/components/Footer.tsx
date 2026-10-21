@@ -1,4 +1,4 @@
-import { ukristfc, diamond, iucr, dectris, bruker } from "../code/sponsors";
+import { ukristfc, iucr, dectris, bruker } from "../code/sponsors";
 import { Logo } from "./Logo";
 
 export function Footer() {

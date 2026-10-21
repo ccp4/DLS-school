@@ -3,6 +3,13 @@ import { autoTable } from "jspdf-autotable";
 
 import { days } from "./sessions";
 
+// jspdf-autotable sets this on the document but doesn't declare it
+declare module "jspdf" {
+  interface jsPDF {
+    lastAutoTable: { finalY: number };
+  }
+}
+
 type SessionType = (typeof days)[number]["sessions"][number]["type"];
 
 // RGB equivalents of the Tailwind colours used on the Programme page
