@@ -63,8 +63,23 @@ export function Programme() {
 
   const firstZoom = zoomDays.find((d) => d.zoom)?.zoom;
 
+  const downloadPdf = async () => {
+    const { downloadProgrammePdf } = await import("../code/programmePdf");
+    downloadProgrammePdf();
+  };
+
   return (
     <main className="flex min-h-screen w-full flex-col pb-40 sm:pb-24">
+      <div className="flex justify-center">
+        <button
+          onClick={downloadPdf}
+          className="flex cursor-pointer items-center gap-1 rounded bg-sky-800 px-4 py-2 font-semibold text-white hover:bg-sky-700"
+        >
+          <span className="material-symbols-outlined text-xl">download</span>
+          Download PDF
+        </button>
+      </div>
+
       <h2 className="mt-6 text-center text-xl font-semibold text-gray-700 dark:text-gray-200">
         Online days
       </h2>
