@@ -130,7 +130,7 @@ const zday2: Day = {
     {
       title: "Navigating Diamond SynchWeb and test log in",
       type: "Practical",
-      time: "10:00",
+      time: "09:45",
       speakers: [marco_mazzorana],
     },
     {
