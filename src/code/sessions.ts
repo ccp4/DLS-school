@@ -170,7 +170,7 @@ const day1: Day = {
     {
       title: "X35 bus from Wantage to Diamond",
       type: "Other",
-      time: "08:32",
+      time: "08:35",
       location: market,
     },
     {
@@ -279,7 +279,7 @@ const day2: Day = {
     {
       title: "X35 bus from Wantage to Diamond",
       type: "Other",
-      time: "08:32",
+      time: "08:35",
       location: market,
     },
     {
@@ -369,7 +369,7 @@ const day3: Day = {
     {
       title: "X35 bus from Wantage to Diamond",
       type: "Other",
-      time: "08:32",
+      time: "08:35",
       location: market,
     },
     {
@@ -588,7 +588,7 @@ const day6: Day = {
     {
       title: "X35 bus from Wantage to Diamond",
       type: "Other",
-      time: "08:32",
+      time: "08:35",
       location: market,
     },
     {
@@ -694,7 +694,7 @@ const day7: Day = {
     {
       title: "X35 bus from Wantage to Diamond",
       type: "Other",
-      time: "08:32",
+      time: "08:35",
       location: market,
     },
     {
