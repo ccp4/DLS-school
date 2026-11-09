@@ -82,9 +82,9 @@ interface Day {
 const zday1: Day = {
   title: "Zoom Day 1 - Mon 26th Oct",
   zoom: {
-    url: "https://diamondlight.zoom.us/",
-    meetingId: "",
-    passcode: "",
+    url: "https://diamondlight.zoom.us/j/92089299723?pwd=hkaTVKVVIfAa430cEmsRKXA7GE2B1Q.1",
+    meetingId: "920 8929 9723",
+    passcode: "513943",
   },
   sessions: [
     {
@@ -115,6 +115,11 @@ const zday1: Day = {
 
 const zday2: Day = {
   title: "Zoom Day 2 - Mon 9th Nov",
+  zoom: {
+    url: "https://diamondlight.zoom.us/j/92089299723?pwd=hkaTVKVVIfAa430cEmsRKXA7GE2B1Q.1",
+    meetingId: "920 8929 9723",
+    passcode: "513943",
+  },
   sessions: [
     {
       title: "Informal housekeeping",
