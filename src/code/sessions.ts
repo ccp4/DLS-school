@@ -540,10 +540,11 @@ const day4: Day = {
       speakers: [grzegorz_chojnowski],
     },
     {
-      title: "Work on your own data",
+      title: "MR with AlphaFold in CCP4 Cloud",
       type: "Practical",
       time: "14:30",
       location: lecture_theatre,
+      speakers: [ronan_keegan],
     },
     {
       title: "Break",
@@ -616,11 +617,10 @@ const day6: Day = {
       time: "11:00",
     },
     {
-      title: "MR with AlphaFold in CCP4 Cloud",
+      title: "Work on your own data",
       type: "Practical",
       time: "11:15",
       location: lecture_theatre,
-      speakers: [ronan_keegan],
     },
     {
       title: "Lunch",
