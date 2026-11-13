@@ -80,3 +80,9 @@ export const bruker: Sponsor = {
   url: "https://www.bruker.com/en.html",
   logo: "bruker.png",
 };
+
+export const ebi: Sponsor = {
+  name: "EMBL-EBI",
+  url: "https://www.ebi.ac.uk/",
+  logo: "embl.png",
+};

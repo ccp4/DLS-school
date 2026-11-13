@@ -1,4 +1,4 @@
-import { ukristfc, iucr, dectris, bruker } from "../code/sponsors";
+import { ukristfc, iucr, dectris, bruker, ebi } from "../code/sponsors";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -9,6 +9,7 @@ export function Footer() {
       </p>
       <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
         <Logo sponsor={ukristfc} />
+        <Logo sponsor={ebi} />
         <Logo sponsor={dectris} />
         <Logo sponsor={bruker} />
         <Logo sponsor={iucr} />
