@@ -147,7 +147,6 @@ const zday2: Day = {
       title: "Bioinformatics for structural biologists",
       type: "Lecture",
       time: "10:45",
-
       speakers: [dan_rigden],
     },
     {
@@ -195,12 +194,14 @@ const day1: Day = {
       title: "Introduction to CCP4",
       type: "Lecture",
       time: "09:45",
+      location: lecture_theatre,
       speakers: [eugene_krissinel],
     },
     {
       title: "Basic Diffraction Theory",
       type: "Lecture",
       time: "10:15",
+      location: lecture_theatre,
       speakers: [kamel_elomari],
     },
     {
@@ -212,6 +213,7 @@ const day1: Day = {
       title: "Fast and curious - Hybrid Pixel detectors for Structural Biology",
       type: "Lecture",
       time: "11:30",
+      location: lecture_theatre,
       speakers: [hans_gildenast],
     },
     {
@@ -223,40 +225,47 @@ const day1: Day = {
       title: "Optimising the Diamond experience",
       type: "Lecture",
       time: "13:00",
+      location: lecture_theatre,
       speakers: [sandra_eltschkner],
     },
     {
       title: "Introduction to CCP4 Cloud",
       type: "Practical",
       time: "13:45",
+      location: lecture_theatre,
       speakers: [maria_fando],
     },
     {
       title: "Students introduction (3 min flash talk each)",
       type: "Lecture",
       time: "14:30",
+      location: lecture_theatre,
     },
     {
       title: "Break",
       type: "Break",
       time: "15:15",
+      location: lecture_theatre,
     },
     {
       title: "Students introduction (3 min flash talk each)",
       type: "Lecture",
       time: "15:30",
+      location: lecture_theatre,
     },
     {
       title: "Data Processing (inc scaling)",
       type: "Lecture",
       time: "16:15",
       speakers: [david_waterman],
+      location: lecture_theatre,
     },
     {
       title: "Radiation Damage",
       type: "Lecture",
       time: "17:15",
       speakers: [elspeth_garman],
+      location: lecture_theatre,
     },
     {
       title: "Dinner",
@@ -268,6 +277,7 @@ const day1: Day = {
       type: "Lecture",
       time: "19:15",
       speakers: [david_aragão],
+      location: lecture_theatre,
     },
     {
       title: "Coach back to Wantage",
@@ -291,14 +301,14 @@ const day2: Day = {
       title: "Logistics and preparation",
       type: "Lecture",
       time: "09:45",
-      location: mx_village,
+      location: lecture_theatre,
       speakers: [marco_mazzorana],
     },
     {
       title: "Data collection session 1",
       type: "Practical",
       time: "10:00",
-      location: lecture_theatre,
+      location: mx_village,
     },
     {
       title: "XDS demo/tutorial",
@@ -311,6 +321,12 @@ const day2: Day = {
       title: "DIALS demo/tutorial",
       type: "Practical",
       time: "10:45",
+      location: lecture_theatre,
+    },
+    {
+      title: "Work on your own data",
+      type: "Practical",
+      time: "11:30",
       location: lecture_theatre,
     },
     {
@@ -335,6 +351,12 @@ const day2: Day = {
       title: "DIALS demo/tutorial",
       type: "Practical",
       time: "14:15",
+      location: lecture_theatre,
+    },
+    {
+      title: "Work on your own data",
+      type: "Practical",
+      time: "15:30",
       location: lecture_theatre,
     },
     {
@@ -426,6 +448,7 @@ const day3: Day = {
       title: "Intro to space groups and symmetry",
       type: "Lecture",
       time: "13:00",
+      location: lecture_theatre,
       speakers: [andrey_lebedev],
     },
     {
