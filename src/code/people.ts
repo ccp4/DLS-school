@@ -311,6 +311,15 @@ export const lucy_schofield: Person = {
   //availability: ["Day 3", "Day 4", "Day 5"],
 };
 
+export const luis_montero: Person = {
+  name: "Luis Fuentes-Montero",
+  email: "luis.fuentes-montero@diamond.ac.uk",
+  photo: "luis_montero.jpg",
+  tags: ["Data Processing"],
+  homepage: undefined,
+  //availability: ["Day 3", "Day 4", "Day 5"],
+};
+
 export const marco_mazzorana: Person = {
   name: "Marco Mazzorana",
   tags: ["Synchrotrons", "Organiser"],
@@ -506,6 +515,7 @@ export const people: Person[] = [
   kay_diederichs,
   lucrezia_catapano,
   lucy_schofield,
+  luis_montero,
   marco_mazzorana,
   maria_fando,
   michail_isupov,
