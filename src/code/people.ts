@@ -379,6 +379,19 @@ export const paul_bond: Person = {
   //availability: ["Day 3", "Day 4", "Day 5"],
 };
 
+export const pedro_nunes: Person = {
+  name: "Pedro Nunes",
+  email: "pedro.nunes@diamond.ac.uk",
+  photo: "pedro_nunes.jpg",
+  tags: [
+    "Data Collection",
+    "Synchrotrons",
+    "Data Processing",
+  ],
+  homepage: "https://www.diamond.ac.uk/Instruments/Mx/HeXI/Staff/Nunes.html",
+  //availability: ["Day 3", "Day 4", "Day 5"],
+};
+
 export const pierre_aller: Person = {
   name: "Pierre Aller",
   tags: ["Synchrotrons", "XFEL", "Organiser"],
@@ -523,6 +536,7 @@ export const people: Person[] = [
   oleg_kovalevskiy,
   paul_bond,
   pierre_aller,
+  pedro_nunes,
   ramona_duman,
   robbie_joosten,
   rob_nicholls,

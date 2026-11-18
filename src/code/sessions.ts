@@ -49,6 +49,7 @@ import {
   michail_isupov,
   oleg_kovalevskiy,
   paul_bond,
+  pedro_nunes,
   robbie_joosten,
   rob_nicholls,
   ronan_keegan,
@@ -518,11 +519,11 @@ const day4: Day = {
       speakers: [ed_lowe],
     },
     {
-      title: "I23",
+      title: "HeXI",
       type: "Lecture",
       time: "10:45",
       location: lecture_theatre,
-      speakers: [kamel_elomari],
+      speakers: [pedro_nunes],
     },
     {
       title: "Break",
