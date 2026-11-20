@@ -192,11 +192,11 @@ const day1: Day = {
       speakers: [marco_mazzorana],
     },
     {
-      title: "Introduction to CCP4",
+      title: "Introduction to CCP4 Cloud",
       type: "Lecture",
       time: "09:45",
       location: lecture_theatre,
-      speakers: [eugene_krissinel],
+      speakers: [maria_fando],
     },
     {
       title: "Basic Diffraction Theory",
@@ -230,7 +230,7 @@ const day1: Day = {
       speakers: [sandra_eltschkner],
     },
     {
-      title: "Introduction to CCP4 Cloud",
+      title: "CCP4 Cloud",
       type: "Practical",
       time: "13:45",
       location: lecture_theatre,
